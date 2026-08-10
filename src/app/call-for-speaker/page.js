@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import CallForSpeakersCTA from '../../components/CallForSpeakersCTA';
+import AgendaSubnav from "../../components/AgendaSubnav";
+import Footer from "../../components/Footer";
 
 export const metadata = {
   title: "Call for Speakers - Vault 2047",
@@ -10,8 +12,10 @@ export const metadata = {
 export default function CallForSpeakerPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#040b0e]">
-      <main className="flex-grow flex flex-col items-center justify-start">
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
         
+        <AgendaSubnav />
+
         {/* Hero Section */}
         <div className="w-full relative self-stretch h-[400px] md:h-[500px] px-6 lg:px-32 flex flex-col justify-center items-center gap-6 overflow-hidden">
           
@@ -45,6 +49,7 @@ export default function CallForSpeakerPage() {
         <CallForSpeakersCTA />
 
       </main>
+      <Footer />
     </div>
   );
 }

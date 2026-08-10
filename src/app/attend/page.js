@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import SpeakersSection from "@/components/SpeakersSection";
 
 export const metadata = {
   title: "Attend - Vault 2047",
@@ -10,27 +12,27 @@ export default function AttendPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#040b0e]">
       
-      <main className="flex-grow flex flex-col items-center justify-start">
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
         
         {/* Sub-Navigation Bar (Directly below header) */}
         <div className="w-full px-9 py-3 bg-gray-950 flex flex-col md:flex-row justify-between items-center overflow-hidden border-b border-white/5 z-20 relative">
           <div className="flex-1 flex justify-center items-center divide-x divide-white/10 w-full max-w-[1200px] mx-auto">
-            <a href="/create-account" className="flex-1 px-4 md:px-6 py-2 flex justify-center items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors text-center">
+            <Link href="/create-account" className="flex-1 px-4 md:px-6 py-2 flex justify-center items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors text-center">
               <div 
                 className="text-white/70 hover:text-white text-xs md:text-sm font-semibold uppercase tracking-tight transition-colors"
                 style={{ fontFamily: "var(--font-ibm)" }}
               >
                 Create new account
               </div>
-            </a>
-            <a href="/get-your-pass" className="flex-1 px-4 md:px-6 py-2 flex justify-center items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors text-center">
+            </Link>
+            <Link href="/get-your-pass" className="flex-1 px-4 md:px-6 py-2 flex justify-center items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors text-center">
               <div 
                 className="text-white/70 hover:text-white text-xs md:text-sm font-semibold uppercase tracking-tight transition-colors"
                 style={{ fontFamily: "var(--font-ibm)" }}
               >
                 Get Your Pass
               </div>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -239,88 +241,11 @@ export default function AttendPage() {
           </div>
         </div>
 
-        {/* Speakers Section */}
-        <div className="w-full relative bg-[#171717] px-6 py-16 md:py-24 lg:px-[120px] flex flex-col items-center overflow-hidden">
-          <div className="w-full max-w-[1200px] flex flex-col justify-start items-center gap-12">
-            
-            {/* Header Content */}
-            <div className="flex flex-col justify-start items-center gap-4 text-center max-w-[800px]">
-              <div className="text-white text-3xl md:text-[40px] font-bold leading-tight" style={{ fontFamily: "var(--font-orbitron)" }}>
-                Led by The Biggest Names Defining Cyber-Resilience
-              </div>
-              <div className="text-white/80 text-base md:text-lg font-normal" style={{ fontFamily: "var(--font-ibm)" }}>
-                Hear from the leaders engineering Southeast Asia&apos;s digital economy.
-              </div>
-            </div>
-
-            {/* Speakers Grid */}
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
-              {[
-                { name: "Alice Johnson", title: "Chief Information Security Officer", country: "USA", img: "/assets/speakers/speaker-1.png" },
-                { name: "Michael Smith", title: "Chief Information Security Officer", country: "UAE", img: "/assets/speakers/speaker-2.png" },
-                { name: "Emma Brown", title: "Chief Information Security Officer", country: "India", img: "/assets/speakers/speaker-3.png" },
-                { name: "Liam Davis", title: "Chief Information Security Officer", country: "Nepal", img: "/assets/speakers/speaker-4.png" },
-                { name: "Sophia Wilson", title: "Chief Information Security Officer", country: "Uzbekistan", img: "/assets/speakers/speaker-1.png" },
-                { name: "James Taylor", title: "Chief Information Security Officer", country: "UK", img: "/assets/speakers/speaker-2.png" },
-                { name: "Olivia Martinez", title: "Chief Information Security Officer", country: "Afghanistan", img: "/assets/speakers/speaker-3.png" },
-                { name: "Noah Anderson", title: "Chief Information Security Officer", country: "Uzbekistan", img: "/assets/speakers/speaker-4.png" }
-              ].map((speaker, index) => (
-                <div key={index} className="w-full flex flex-col justify-start items-stretch outline outline-1 outline-offset-[-0.5px] outline-[#B86A2E]/20 group cursor-pointer">
-                  
-                  {/* Image Container with Decorative elements */}
-                  <div className="w-full aspect-[4/5] relative bg-[#B86A2E]/5 overflow-hidden flex justify-center items-end pt-8">
-                    {/* Decorative Blurs */}
-                    <div className="w-32 h-56 absolute right-0 top-10 bg-white/5 backdrop-blur-3xl transform rotate-12 transition-transform duration-700 group-hover:scale-110" />
-                    <div className="w-32 h-36 absolute left-4 bottom-10 bg-white/5 backdrop-blur-3xl transform -rotate-6 transition-transform duration-700 group-hover:scale-110" />
-                    
-                    {/* Placeholder Image */}
-                    <div className="w-[85%] h-[90%] relative z-10">
-                      <Image 
-                        className="object-cover object-top transition-transform duration-500 group-hover:scale-105" 
-                        src={speaker.img} 
-                        alt={speaker.name}
-                        fill
-                      />
-                    </div>
-                  </div>
-
-                  {/* Speaker Details */}
-                  <div className="w-full p-6 bg-[#0B0B0B] flex flex-col justify-start items-start gap-5 flex-1 group-hover:bg-[#131313] transition-colors">
-                    
-                    <div className="w-full flex justify-between items-center">
-                      <div className="px-3 py-1 bg-zinc-300 text-black text-xs font-bold uppercase tracking-widest" style={{ fontFamily: "var(--font-ibm)" }}>
-                        Logo
-                      </div>
-                      <div className="text-white/40 text-sm font-medium" style={{ fontFamily: "var(--font-ibm)" }}>
-                        {speaker.country}
-                      </div>
-                    </div>
-                    
-                    <div className="flex flex-col justify-start items-start gap-1">
-                      <div className="text-white text-xl font-semibold leading-tight" style={{ fontFamily: "var(--font-ibm)" }}>
-                        {speaker.name}
-                      </div>
-                      <div className="text-white/40 text-xs font-normal" style={{ fontFamily: "var(--font-ibm)" }}>
-                        {speaker.title}
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              ))}
-            </div>
-
-            <div className="w-full flex justify-center items-center mt-4">
-              <button className="w-full sm:w-auto px-8 py-4 outline outline-1 outline-offset-[-1px] outline-[#B86A2E] text-white hover:bg-[#B86A2E]/20 transition-colors text-base font-medium" style={{ fontFamily: "var(--font-ibm)" }}>
-                See All Speakers
-              </button>
-            </div>
-
-          </div>
-        </div>
+        {/* Speakers Section - Using Shared Component (Full Width) */}
+        <SpeakersSection />
 
         {/* Final CTA Section */}
-        <div className="w-full relative min-h-[500px] md:h-[710px] bg-[#040b0e] flex justify-center items-center px-4 md:px-20 py-20">
+        <div className="w-full relative min-h-[500px] md:h-[710px] bg-[#040b0e] flex justify-center items-center px-4 md:px-20 py-10 md:py-10 lg:py-10">
           
           {/* Wrapper for Card and Outside Decorative Elements */}
           <div className="w-full max-w-[1200px] relative">
@@ -389,3 +314,4 @@ export default function AttendPage() {
     </div>
   );
 }
+

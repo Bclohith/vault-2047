@@ -2,45 +2,68 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname() || '';
 
   const navLinks = [
-    { name: "Attend", href: "#" },
-    { name: "Agenda", href: "#" },
-    { name: "Ecosystem", href: "#" },
-    { name: "Collaborate", href: "#" },
-    { name: "Startups", href: "#" },
-    { name: "Knowledge hub", href: "#" },
+    { name: "Attend", href: "/attend" },
+    { name: "Agenda", href: "/agenda" },
+    { name: "Ecosystem", href: "/ecosystem" },
+    { name: "Collaborate", href: "/collaborate" },
+    { name: "Startups", href: "/startups" },
+    { name: "Knowledge hub", href: "/knowledge-hub" },
   ];
 
   return (
-    <header className="w-full relative z-50 bg-[#171717] border-b border-white/10">
+    <header className="w-full fixed top-0 left-0 z-50 bg-[#171717] border-b border-white/10">
       <div className="w-full max-w-[1440px] mx-auto px-6 py-4 md:px-16 flex justify-between items-center h-20 md:h-24">
         
         {/* Logo */}
         <div className="relative w-32 h-10 md:w-36 md:h-12 flex-shrink-0 cursor-pointer">
-          <Image 
-            src="/assets/logo.svg" 
-            alt="Vault 2047 Logo" 
-            fill 
-            className="object-contain object-left" 
-          />
+          <Link href="/">
+            <Image 
+              src="/assets/logo.svg" 
+              alt="Vault 2047 Logo" 
+              fill 
+              className="object-contain object-left" 
+            />
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
-          {navLinks.map((link, index) => (
-            <a 
-              key={index}
-              href={link.href}
-              className="px-4 py-2 text-white/70 hover:text-white text-sm font-semibold tracking-tight transition-colors"
-              style={{ fontFamily: "var(--font-ibm)" }}
-            >
-              {link.name}
-            </a>
-          ))}
+          {navLinks.map((link, index) => {
+            // Active if exact match or if we're inside a subpage of that category (e.g. /ecosystem/sponsors doesn't exist yet but if we add /sponsors it's separate)
+            // Since exhibitors/sponsors are currently top-level routes (/sponsors, etc.), let's see. Wait, if we are on /sponsors, should ecosystem be highlighted?
+            // The user says "if we open Main navbar that will underline not subnav". This implies they just want the main navbar items to show an active underline when clicked.
+            // Check if current pathname matches exactly, or if we are in a subpage of this category
+            let isActive = pathname === link.href;
+            if (link.name === "Ecosystem") {
+              isActive = isActive || ["/sponsors", "/exhibitors", "/media-partners", "/association-partners"].includes(pathname);
+            } else if (link.name === "Attend") {
+              isActive = isActive || ["/create-account", "/get-your-pass"].includes(pathname);
+            } else if (link.name === "Startups") {
+              isActive = isActive || ["/attend-startup", "/exhibit-startup", "/pitch-competition"].includes(pathname);
+            }
+            return (
+              <Link 
+                key={index}
+                href={link.href}
+                className={`px-4 py-2 text-sm font-semibold tracking-tight transition-colors border-b-2 ${
+                  isActive 
+                    ? "text-white border-[#B86A2E]" 
+                    : "text-white/70 border-transparent hover:text-white"
+                }`}
+                style={{ fontFamily: "var(--font-ibm)" }}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
         </nav>
 
         {/* Desktop Actions */}
@@ -78,14 +101,15 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-[#171717] border-b border-white/10 flex flex-col shadow-xl">
           {navLinks.map((link, index) => (
-            <a 
+            <Link 
               key={index}
               href={link.href}
               className="px-6 py-4 text-white/70 hover:text-white hover:bg-white/5 text-base font-semibold border-b border-white/5 transition-colors"
               style={{ fontFamily: "var(--font-ibm)" }}
+              onClick={() => setIsMobileMenuOpen(false)}
             >
               {link.name}
-            </a>
+            </Link>
           ))}
           <div className="flex flex-col gap-3 p-6">
             <button 

@@ -25,7 +25,7 @@ export default function Home() {  const stats = [
     <div className="flex flex-col min-h-screen bg-[#040b0e]">
       
       {/* Main Hero Section */}
-      <main className="w-full h-auto min-h-[500px] md:min-h-[600px] lg:min-h-[650px] py-16 md:py-24 relative flex flex-col items-center justify-center overflow-hidden font-sans">
+      <main className="w-full h-auto min-h-[60vh] md:min-h-[75vh] lg:min-h-[85vh] pt-32 md:pt-40 pb-20 md:pb-32 relative flex flex-col items-center justify-center overflow-hidden font-sans">
         
         {/* Interactive 3D Globe Grid Background */}
         <HeroBackground />
@@ -36,18 +36,18 @@ export default function Home() {  const stats = [
           alt="Bracket Left"
           width={181}
           height={201}
-          className="absolute z-10 bottom-[10%] md:bottom-[20%] left-[2%] md:left-[10%] lg:left-[15%] w-24 sm:w-32 md:w-40 lg:w-[181px]"
+          className="absolute z-10 bottom-[10%] md:bottom-[15%] left-[2%] md:left-[10%] lg:left-[15%] w-12 sm:w-16 md:w-20 lg:w-24"
         />
         <Image 
           src="/assets/vector.svg"
           alt="Bracket Right"
           width={199}
           height={220}
-          className="absolute z-10 top-[10%] md:top-[15%] right-[2%] md:right-[10%] lg:right-[15%] w-24 sm:w-32 md:w-40 lg:w-[199px]"
+          className="absolute z-10 top-[10%] md:top-[15%] right-[2%] md:right-[10%] lg:right-[15%] w-12 sm:w-16 md:w-20 lg:w-28"
         />
 
         {/* Content wrapper */}
-        <div className="relative z-20 flex flex-col items-center justify-center gap-4 md:gap-[28px] w-full max-w-[1010px] px-4 md:px-8 mt-12 md:mt-0">
+        <div className="relative z-20 flex flex-col items-center justify-center gap-4 md:gap-[28px] w-full max-w-[1010px] px-4 md:px-8 mt-12 md:mt-16">
           
           {/* Mumbai India Date */}
           <div className="flex items-start justify-center gap-2 md:gap-[11px] text-[#b86a2e] uppercase tracking-[0.05em] md:tracking-[0.09em] font-medium text-xs md:text-[16px]">

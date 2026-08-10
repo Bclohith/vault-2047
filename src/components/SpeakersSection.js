@@ -41,19 +41,23 @@ export default function SpeakersSection() {
               }}
             >
               {/* Top Photo Section */}
-              <div className="w-full aspect-[4/5] sm:aspect-square relative bg-[#B86A2E]/5 overflow-hidden flex items-end justify-center">
+              <div className="w-full aspect-[4/5] sm:aspect-square relative bg-[#1c1a17] overflow-hidden flex items-end justify-center group cursor-pointer">
                 
-                {/* Decorative Blurred Shapes */}
-                <div className="absolute w-[134px] h-[218px] top-[10%] right-[10%] bg-white/10 blur-2xl rounded-full mix-blend-screen transition-transform duration-700 group-hover:scale-125" />
-                <div className="absolute w-[134px] h-[148px] bottom-[10%] left-[10%] bg-white/10 blur-2xl rounded-full mix-blend-screen transition-transform duration-700 group-hover:scale-125" />
+                {/* Background Image that scales on hover */}
+                <Image
+                  src="/assets/speaker-bg.png"
+                  alt="Background"
+                  fill
+                  className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.15]"
+                />
                 
                 {/* Speaker Image */}
-                <div className="relative w-[85%] h-[90%] flex items-end justify-center">
+                <div className="relative w-[85%] h-[90%] flex items-end justify-center z-10">
                   <Image
                     src={`/assets/speaker-${(index % 4) + 1}.png`}
                     alt={speaker.name}
                     fill
-                    className="object-contain object-bottom transition-transform duration-500 group-hover:scale-105"
+                    className="object-contain object-bottom transition-transform duration-500 ease-in-out group-hover:scale-[1.05]"
                   />
                 </div>
               </div>

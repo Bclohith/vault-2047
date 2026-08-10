@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CTASection() {
   return (
-    <section className="w-full relative px-6 py-20 lg:px-[120px] lg:py-[120px] flex flex-col items-center justify-center overflow-hidden bg-[#0A0A0A]">
+    <section className="w-full relative px-6 py-10 md:py-10 lg:py-10 flex flex-col items-center justify-center overflow-hidden bg-[#0A0A0A]">
       
       {/* Background Image / Overlay */}
       <div className="absolute inset-0 z-0">

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import EcosystemHeroBackground from "../../components/EcosystemHeroBackground";
@@ -10,23 +11,28 @@ export const metadata = {
 export default function AssociationPartnersPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#040b0e]">
-      <main className="flex-grow flex flex-col items-center justify-start">
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
         
-        {/* Sub Navbar (Above Hero) */}
-        <div className="w-full bg-[#0a0a0a] z-40 flex justify-center shadow-lg border-b border-white/5">
-          <div className="w-full max-w-[1200px] px-6 overflow-x-auto no-scrollbar flex justify-start md:justify-center items-center gap-8 md:gap-16">
-            <button className="text-white/70 hover:text-[#B86A2E] text-xs md:text-sm font-bold uppercase tracking-widest py-5 md:py-6 whitespace-nowrap transition-colors border-b-2 border-transparent hover:border-[#B86A2E]">
-              Sponsors
-            </button>
-            <button className="text-white/70 hover:text-[#B86A2E] text-xs md:text-sm font-bold uppercase tracking-widest py-5 md:py-6 whitespace-nowrap transition-colors border-b-2 border-transparent hover:border-[#B86A2E]">
-              Exhibitors
-            </button>
-            <button className="text-white/70 hover:text-[#B86A2E] text-xs md:text-sm font-bold uppercase tracking-widest py-5 md:py-6 whitespace-nowrap transition-colors border-b-2 border-transparent hover:border-[#B86A2E]">
-              Media Partners
-            </button>
-            <button className="text-[#B86A2E] text-xs md:text-sm font-bold uppercase tracking-widest py-5 md:py-6 whitespace-nowrap transition-colors border-b-2 border-[#B86A2E]">
-              Association Partners
-            </button>
+        {/* Sub-Navigation */}
+        <div className="w-full bg-[#040b0e] border-b border-white/10 sticky top-[72px] z-40 flex justify-center items-center overflow-x-auto hide-scrollbar">
+          <div className="flex justify-center items-center gap-2 md:gap-8 min-w-max px-6">
+            
+            <Link href="/sponsors" className="px-4 py-4 border-b-4 border-transparent hover:border-teal-500/50 flex justify-start items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors group">
+              <div className="text-white/70 text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-tight group-hover:text-white transition-colors">Sponsors</div>
+            </Link>
+            
+            <Link href="/exhibitors" className="px-4 py-4 border-b-4 border-transparent hover:border-teal-500/50 flex justify-start items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors group">
+              <div className="text-white/70 text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-tight group-hover:text-white transition-colors">Exhibitors</div>
+            </Link>
+            
+            <Link href="/media-partners" className="px-4 py-4 border-b-4 border-transparent hover:border-teal-500/50 flex justify-start items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors group">
+              <div className="text-white/70 text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-tight group-hover:text-white transition-colors">Media Partners</div>
+            </Link>
+            
+            <Link href="/association-partners" className="px-4 py-4 border-b-4 border-teal-500 flex justify-start items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors">
+              <div className="text-white text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-tight">Association Partners</div>
+            </Link>
+            
           </div>
         </div>
 

@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import StartupHeroBackground from "../../components/StartupHeroBackground";
+import Canvas3DBackground from '../../components/Canvas3DBackground';
 
 export const metadata = {
   title: "Attend as a Startup - Vault 2047",
@@ -10,21 +11,38 @@ export const metadata = {
 export default function AttendAsStartupPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#040b0e]">
-      <main className="flex-grow flex flex-col items-center justify-start">
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
+        
+        {/* Sub-Navigation */}
+        <div className="w-full bg-[#040b0e] border-b border-white/10 flex justify-center items-center overflow-x-auto no-scrollbar">
+          <div className="flex justify-center items-center px-6 min-w-max">
+            <Link href="/attend-startup" className="px-4 py-4 border-b-4 border-[#B86A2E] flex justify-center items-center gap-1.5 transition-colors group">
+              <span className="text-white group-hover:text-white text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-wide transition-colors">Attend as a Startup</span>
+            </Link>
+            <Link href="/exhibit-startup" className="px-4 py-4 border-b-4 border-transparent hover:border-[#B86A2E] flex justify-center items-center gap-1.5 transition-colors group">
+              <span className="text-white/70 group-hover:text-white text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-wide transition-colors">Exhibit as a Startup</span>
+            </Link>
+            <Link href="/pitch-competition" className="px-4 py-4 border-b-4 border-transparent hover:border-[#B86A2E] flex justify-center items-center gap-1.5 transition-colors group">
+              <span className="text-white/70 group-hover:text-white text-sm font-semibold font-['IBM_Plex_Sans'] uppercase tracking-wide transition-colors">The Cyber Foundry Pitch Competition</span>
+            </Link>
+          </div>
+        </div>
         
         {/* Hero Section */}
-        <div className="w-full relative self-stretch h-[400px] md:h-[500px] bg-[#040b0e] flex flex-col justify-center items-center overflow-hidden">
-          
-          <StartupHeroBackground />
+        <div className="w-full relative self-stretch h-[320px] md:h-[450px] px-6 lg:px-32 bg-[#040b0e] flex flex-col justify-center items-center gap-5 overflow-hidden border-b border-white/5">
+          <div className="absolute inset-0 z-0 bg-black">
+             <Canvas3DBackground />
+             <div className="absolute inset-0 bg-gradient-to-t from-[#040b0e] to-transparent z-10 pointer-events-none" />
+          </div>
 
-          <div className="w-full max-w-[1200px] px-6 lg:px-32 flex flex-col items-center gap-6 relative z-10 pointer-events-none">
+          <div className="w-full max-w-[1200px] flex flex-col items-center gap-6 relative z-10 pointer-events-none">
             
             <div className="w-full text-center text-white/80 text-sm md:text-base lg:text-lg font-bold font-['IBM_Plex_Sans'] uppercase tracking-[3px] md:tracking-widest">
               Startup <span className="text-[#B86A2E]">|</span> Attend as Startup
             </div>
             
             <div className="w-full flex justify-center items-center">
-              <h1 className="max-w-[1073px] text-center text-white text-3xl md:text-5xl lg:text-[52px] font-bold font-['Orbitron'] leading-snug md:leading-tight">
+              <h1 className="max-w-[1073px] text-center text-white text-3xl md:text-5xl lg:text-[52px] font-bold font-['Orbitron'] leading-snug md:leading-tight drop-shadow-[0_0_15px_rgba(13,102,101,0.5)]">
                 Attend as a Startup
               </h1>
             </div>
@@ -38,46 +56,46 @@ export default function AttendAsStartupPage() {
 
         {/* What You Get Section */}
         <div className="w-full px-6 md:px-12 lg:px-28 py-16 md:py-24 bg-gray-950 flex justify-center items-center overflow-hidden">
-          <div className="w-full max-w-[1200px] flex flex-col lg:flex-row justify-between items-center lg:items-start gap-12 lg:gap-16">
+          <div className="w-full max-w-[1200px] flex flex-col lg:flex-row justify-start items-center lg:items-start gap-6 lg:gap-0">
             
             {/* Left side: Image Scroll Component */}
-            <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-              <div className="w-full max-w-[537px] h-64 md:h-80 lg:h-96 relative overflow-hidden flex items-center rounded-sm border border-white/10">
-                {/* Scroll track (animated) */}
-                <div className="flex animate-scroll-left w-[200%] h-full hover:[animation-play-state:paused]">
-                  <div className="h-full w-[350px] md:w-[400px] flex-shrink-0 p-2 md:p-4">
-                    <img className="w-full h-full object-cover rounded-sm" src="/Vault-2047/assets/startups/what-you-get-1.png" alt="Startup Showcase" />
-                  </div>
-                  <div className="h-full w-[350px] md:w-[400px] flex-shrink-0 p-2 md:p-4">
-                    <img className="w-full h-full object-cover rounded-sm" src="/Vault-2047/assets/startups/what-you-get-2.png" alt="Networking" />
-                  </div>
-                  <div className="h-full w-[350px] md:w-[400px] flex-shrink-0 p-2 md:p-4">
-                    <img className="w-full h-full object-cover rounded-sm" src="/Vault-2047/assets/startups/what-you-get-3.png" alt="Pitch" />
-                  </div>
-                  <div className="h-full w-[350px] md:w-[400px] flex-shrink-0 p-2 md:p-4">
-                    <img className="w-full h-full object-cover rounded-sm" src="/Vault-2047/assets/startups/what-you-get-1.png" alt="Startup Showcase" />
-                  </div>
+            <div className="w-full lg:w-[537px] h-64 md:h-80 lg:h-96 relative overflow-hidden flex-shrink-0 border border-white/10 rounded-sm">
+              {/* Scroll track (animated) */}
+              <div className="flex animate-scroll-left w-[300%] h-full hover:[animation-play-state:paused] items-center gap-6">
+                <div className="h-[90%] w-[450px] flex-shrink-0 relative">
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/2dbc403b030780f8605d854eda7ad2d074559960 (1).png" alt="Startup Showcase" fill />
                 </div>
-                {/* Gradient Overlay for fade effect */}
-                <div className="absolute right-0 top-0 bottom-0 w-24 md:w-32 bg-gradient-to-r from-transparent to-gray-950 pointer-events-none" />
-                <div className="absolute left-0 top-0 bottom-0 w-12 md:w-16 bg-gradient-to-l from-transparent to-gray-950 pointer-events-none" />
+                <div className="h-[90%] w-[450px] flex-shrink-0 relative">
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/7acb98c03f0fa63fa0d47fd04024745cd91add72 (1).png" alt="Networking" fill />
+                </div>
+                <div className="h-[90%] w-[450px] flex-shrink-0 relative">
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/93438dad1ff86ac3ed410e9f44a5588217370ec3 (1).png" alt="Pitch" fill />
+                </div>
+                <div className="h-[90%] w-[450px] flex-shrink-0 relative">
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/2dbc403b030780f8605d854eda7ad2d074559960 (1).png" alt="Startup Showcase" fill />
+                </div>
               </div>
+              {/* Gradient Overlay for fade effect */}
+              <div className="absolute right-0 top-0 bottom-0 w-32 md:w-44 bg-gradient-to-l from-gray-950 to-transparent pointer-events-none" />
             </div>
 
+            {/* Spacer */}
+            <div className="hidden lg:block w-20 h-full relative" />
+
             {/* Right side: Text Content */}
-            <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-6 lg:gap-8 lg:py-8">
-              <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold font-['Orbitron'] leading-snug">
-                What You Get as a Startup at <br className="hidden lg:block"/>
-                <span className="text-[#B86A2E]">VAULT2047</span>
-              </h2>
+            <div className="flex-1 flex flex-col justify-start items-start gap-6 lg:py-8">
+              <div className="self-stretch justify-start">
+                <span className="text-white text-3xl md:text-4xl lg:text-4xl font-bold font-['Orbitron']">What You Get as a Startup at </span>
+                <span className="text-[#B86A2E] text-3xl md:text-4xl lg:text-4xl font-bold font-['Orbitron']">VAULT2047</span>
+              </div>
               
-              <p className="text-white/80 text-base md:text-lg font-normal font-['IBM_Plex_Sans'] leading-relaxed">
+              <div className="self-stretch justify-start text-white/90 text-base md:text-lg font-normal font-['IBM_Plex_Sans'] leading-relaxed">
                 Vault2047 is built as a launchpad for cybersecurity and deep tech startups to move beyond visibility and into real-world impact.
-              </p>
+              </div>
               
-              <p className="text-white/80 text-base md:text-lg font-normal font-['IBM_Plex_Sans'] leading-relaxed">
+              <div className="self-stretch justify-start text-white/90 text-base md:text-lg font-normal font-['IBM_Plex_Sans'] leading-relaxed">
                 Gain direct access to capital, customers, and collaboration opportunities needed to scale your innovation within India’s rapidly evolving cybersecurity ecosystem.
-              </p>
+              </div>
             </div>
             
           </div>
@@ -95,7 +113,7 @@ export default function AttendAsStartupPage() {
               {/* Card 1 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <img src="/Vault-2047/assets/startups/why-attend-1.png" className="w-full h-full object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Investor Access" />
+                  <Image src="/assets/startups/4532265b34b6891806beda1b9f87bf0799caacf7 (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Investor Access" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -109,7 +127,7 @@ export default function AttendAsStartupPage() {
               {/* Card 2 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <img src="/Vault-2047/assets/startups/why-attend-2.png" className="w-full h-full object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Innovation Showcase" />
+                  <Image src="/assets/startups/cf68fed8c57db7054338666f906418c756614f8d (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Innovation Showcase" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -123,7 +141,7 @@ export default function AttendAsStartupPage() {
               {/* Card 3 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <img src="/Vault-2047/assets/startups/why-attend-3.png" className="w-full h-full object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Strategic Networking" />
+                  <Image src="/assets/startups/cd712229307ade65a443f49d43c5d7302a144bee (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Strategic Networking" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -137,7 +155,7 @@ export default function AttendAsStartupPage() {
               {/* Card 4 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <img src="/Vault-2047/assets/startups/why-attend-4.png" className="w-full h-full object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Enterprise & Government" />
+                  <Image src="/assets/startups/1f23bcade5b82355a5e709138ead923463f1b45d (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Enterprise & Government" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -292,3 +310,4 @@ export default function AttendAsStartupPage() {
     </div>
   );
 }
+

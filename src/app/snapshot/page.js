@@ -1,4 +1,7 @@
 import React from 'react';
+import AgendaSubnav from "../../components/AgendaSubnav";
+import Footer from "../../components/Footer";
+import AgendaHeroBackground from "../../components/AgendaHeroBackground";
 
 export const metadata = {
   title: "Agenda Snapshot - Vault 2047",
@@ -8,11 +11,14 @@ export const metadata = {
 export default function SnapshotPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#040b0e]">
-      <main className="flex-grow flex flex-col items-center justify-start">
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
         
+        <AgendaSubnav />
+
         {/* Hero Section */}
-        <div className="w-full relative self-stretch h-[350px] md:h-[400px] px-6 lg:px-32 bg-gray-950 flex flex-col justify-center items-center gap-5 overflow-hidden">
-          
+        <div className="w-full relative self-stretch h-[350px] md:h-[400px] px-6 lg:px-32 bg-black/40 flex flex-col justify-center items-center gap-5 overflow-hidden">
+          <AgendaHeroBackground />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#040b0e] to-transparent z-10 pointer-events-none" />
           <div className="w-full max-w-[1200px] flex flex-col items-center gap-6 relative z-10">
             <div className="w-full text-center text-white/80 text-sm md:text-base lg:text-lg font-semibold font-['IBM_Plex_Sans'] uppercase tracking-[3px] md:tracking-widest">
               Agenda / Snapshot
@@ -38,6 +44,7 @@ export default function SnapshotPage() {
         </div>
 
       </main>
+      <Footer />
     </div>
   );
 }

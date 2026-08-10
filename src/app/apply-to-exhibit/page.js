@@ -154,7 +154,7 @@ export default function ApplyToExhibitPage() {
             <div className="absolute -bottom-6 -right-2 md:-bottom-12 md:-right-12 w-16 h-16 md:w-32 md:h-32 border-b-[16px] md:border-b-[24px] border-r-[16px] md:border-r-[24px] border-[#9a5624] z-0" />
             
             {/* Inner Card */}
-            <div className="w-full relative bg-[#073635] flex flex-col justify-center items-center py-16 md:py-20 lg:p-20 gap-10 overflow-hidden shadow-2xl z-10">
+            <div className="w-full relative bg-[#073635] flex flex-col justify-center items-center py-10 md:py-10 lg:py-10 gap-10 overflow-hidden shadow-2xl z-10">
               {/* Background Image & Gradient */}
               <div className="absolute inset-0 z-0">
                 <img src="/Vault-2047/assets/collab-cta-bg.jpg" className="w-full h-full object-cover opacity-20 mix-blend-screen grayscale" alt="Audience" />
