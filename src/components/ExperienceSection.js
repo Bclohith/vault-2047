@@ -7,7 +7,7 @@ export default function ExperienceSection() {
       id: "01",
       title: "Global Plenary: Dialogues from the Vault 2047",
       description: "High-level keynotes and strategic discussions shaping the future of global cyber resilience.",
-      imgSrc: "/assets/experience-cards/card-1.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-1.png",
       width: "lg:w-[32%]",
       aspect: "aspect-[4/5] lg:aspect-square"
     },
@@ -15,7 +15,7 @@ export default function ExperienceSection() {
       id: "02",
       title: "The Mumbai Accord Roundtables",
       description: "Closed-door policy and defense collaboration",
-      imgSrc: "/assets/experience-cards/card-2.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-2.png",
       width: "lg:w-[32%]",
       aspect: "aspect-[4/5] lg:aspect-square"
     },
@@ -23,7 +23,7 @@ export default function ExperienceSection() {
       id: "03",
       title: "Sovereign Shield Pavilion",
       description: "Showcasing national cyber capabilities and sovereign digital defense frameworks.",
-      imgSrc: "/assets/experience-cards/card-3.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-3.png",
       width: "lg:w-[32%]",
       aspect: "aspect-[4/5] lg:aspect-square"
     },
@@ -31,7 +31,7 @@ export default function ExperienceSection() {
       id: "04",
       title: "The Cyber Foundry",
       description: "Interactive workshops and hands-on cyber defense simulations.",
-      imgSrc: "/assets/experience-cards/card-4.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-4.png",
       width: "lg:w-[38.5%]",
       aspect: "aspect-[4/5] lg:aspect-[16/10]"
     },
@@ -39,7 +39,7 @@ export default function ExperienceSection() {
       id: "05",
       title: "Cyber-Powered Skills Pods",
       description: "Next-generation training and certification for cyber professionals.",
-      imgSrc: "/assets/experience-cards/card-5.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-5.png",
       width: "lg:w-[59.5%]",
       aspect: "aspect-[4/5] lg:aspect-[24/10]"
     },
@@ -47,7 +47,7 @@ export default function ExperienceSection() {
       id: "06",
       title: "Hackathon Arena",
       description: "Competitive coding and threat resolution challenges.",
-      imgSrc: "/assets/experience-cards/card-6.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-6.png",
       width: "lg:w-[59.5%]",
       aspect: "aspect-[4/5] lg:aspect-[24/10]"
     },
@@ -55,7 +55,7 @@ export default function ExperienceSection() {
       id: "07",
       title: "Sector Alleys & Exhibition",
       description: "Explore the latest disruptive technologies and enterprise solutions.",
-      imgSrc: "/assets/experience-cards/card-7.png",
+      imgSrc: "/Vault-2047/assets/experience-cards/card-7.png",
       width: "lg:w-[38.5%]",
       aspect: "aspect-[4/5] lg:aspect-[16/10]"
     }

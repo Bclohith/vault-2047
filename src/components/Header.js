@@ -26,7 +26,7 @@ export default function Header() {
         <div className="relative w-32 h-10 md:w-36 md:h-12 flex-shrink-0 cursor-pointer">
           <Link href="/">
             <Image 
-              src="/assets/logo.svg" 
+              src="/Vault-2047/assets/logo.svg" 
               alt="Vault 2047 Logo" 
               fill 
               className="object-contain object-left" 

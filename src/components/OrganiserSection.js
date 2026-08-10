@@ -43,7 +43,7 @@ export default function OrganiserSection() {
           {/* Organizer Logo */}
           <div className="relative w-48 h-20 md:h-24">
              <Image 
-               src="/assets/organiser/trescon-logo.png"
+               src="/Vault-2047/assets/organiser/trescon-logo.png"
                alt="Trescon Logo"
                fill
                className="object-contain object-left"
@@ -75,7 +75,7 @@ export default function OrganiserSection() {
           {/* Main Image */}
           <div className="w-full aspect-[16/10] bg-[#B86A2E]/5 border border-white/10 relative overflow-hidden group">
             <Image 
-              src="/assets/organiser/organiser-img.jpg"
+              src="/Vault-2047/assets/organiser/organiser-img.jpg"
               alt="Trescon Organizer Event"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"

@@ -22,7 +22,7 @@ export default function CallForSpeakerPage() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
              <Image 
-                src="/assets/call-for-speaker/cfs-hero-bg.jpg" 
+                src="/Vault-2047/assets/call-for-speaker/cfs-hero-bg.jpg" 
                 alt="Vault 2047 Call for Speakers Background" 
                 fill 
                 className="object-cover"

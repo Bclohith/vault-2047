@@ -8,7 +8,7 @@ export default function CTASection() {
       {/* Background Image / Overlay */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="/assets/cta/cta-bg.jpg" 
+          src="/Vault-2047/assets/cta/cta-bg.jpg" 
           alt="CTA Background" 
           fill 
           className="object-cover opacity-30" 

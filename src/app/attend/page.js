@@ -42,7 +42,7 @@ export default function AttendPage() {
           {/* Background Image & Overlay */}
           <div className="absolute inset-0 z-0 bg-black">
             <Image 
-              src="/assets/attend-bg.png"
+              src="/Vault-2047/assets/attend-bg.png"
               alt="Attend Background"
               fill
               className="object-cover opacity-60"
@@ -105,7 +105,7 @@ export default function AttendPage() {
             <div className="w-full lg:w-[551px] aspect-video lg:aspect-[551/370] relative flex-shrink-0 border border-white/5 shadow-2xl">
               <Image 
                 className="object-cover" 
-                src="/assets/vision-map.png" 
+                src="/Vault-2047/assets/vision-map.png" 
                 alt="Vision Map" 
                 fill 
               />
@@ -134,12 +134,12 @@ export default function AttendPage() {
             <div className="w-full relative">
               <div className="w-full h-[600px] md:h-[700px] flex flex-col justify-start items-start gap-8 md:gap-11 overflow-y-auto hide-scrollbar pb-32 pt-2 pr-2">
                 {[
-                  { id: "01", title: "Establishing India as a Global Cyber Resilience Leader", desc: "Position India at the forefront of cyber defense, digital trust, and global cyber collaboration.", img: "/assets/feature-01.png" },
-                  { id: "02", title: "Enabling Policy & Strategic Dialogue", desc: "Facilitate high-impact discussions through platforms like the Mumbai Accord, shaping cyber governance and national security frameworks.", img: "/assets/feature-02.png" },
-                  { id: "03", title: "Accelerating Innovation & Investment", desc: "Connect startups, enterprises, and investors to drive cybersecurity innovation, adoption, and scale.", img: "/assets/feature-03.jpg" },
-                  { id: "04", title: "Securing Critical Infrastructure", desc: "Address real-world challenges across BFSI, telecom, energy, healthcare, and public infrastructure.", img: "/assets/feature-04.png" },
-                  { id: "05", title: "Strengthening Public–Private Collaboration", desc: "Bring together government bodies, enterprises, and global stakeholders to enable coordinated cyber strategies.", img: "/assets/feature-05.png" },
-                  { id: "06", title: "Building a Future-Ready Cyber Workforce", desc: "Advance talent development, skilling, and ecosystem readiness to address global cyber talent gaps.", img: "/assets/feature-06.jpg" }
+                  { id: "01", title: "Establishing India as a Global Cyber Resilience Leader", desc: "Position India at the forefront of cyber defense, digital trust, and global cyber collaboration.", img: "/Vault-2047/assets/feature-01.png" },
+                  { id: "02", title: "Enabling Policy & Strategic Dialogue", desc: "Facilitate high-impact discussions through platforms like the Mumbai Accord, shaping cyber governance and national security frameworks.", img: "/Vault-2047/assets/feature-02.png" },
+                  { id: "03", title: "Accelerating Innovation & Investment", desc: "Connect startups, enterprises, and investors to drive cybersecurity innovation, adoption, and scale.", img: "/Vault-2047/assets/feature-03.jpg" },
+                  { id: "04", title: "Securing Critical Infrastructure", desc: "Address real-world challenges across BFSI, telecom, energy, healthcare, and public infrastructure.", img: "/Vault-2047/assets/feature-04.png" },
+                  { id: "05", title: "Strengthening Public–Private Collaboration", desc: "Bring together government bodies, enterprises, and global stakeholders to enable coordinated cyber strategies.", img: "/Vault-2047/assets/feature-05.png" },
+                  { id: "06", title: "Building a Future-Ready Cyber Workforce", desc: "Advance talent development, skilling, and ecosystem readiness to address global cyber talent gaps.", img: "/Vault-2047/assets/feature-06.jpg" }
                 ].map((item, index) => (
                   <div key={index} className="w-full p-4 md:p-8 bg-gradient-to-r from-transparent via-[#B86A2E]/10 to-[#B86A2E]/70 outline outline-1 outline-[#B86A2E]/40 flex flex-col lg:flex-row justify-start items-stretch gap-8 group hover:outline-[#B86A2E] transition-all bg-[#171717]">
                     
@@ -262,7 +262,7 @@ export default function AttendPage() {
               {/* Image constrained inside the card */}
               <div className="absolute inset-0 z-0">
                 <Image 
-                  src="/assets/attend-cta-bg.jpg"
+                  src="/Vault-2047/assets/attend-cta-bg.jpg"
                   alt="CTA Background"
                   fill
                   className="object-cover opacity-30 mix-blend-screen grayscale"

@@ -65,7 +65,7 @@ export default function ThemesPage() {
 
             {/* Image Box */}
             <div className="w-full lg:w-[486px] h-[300px] md:h-[370px] relative rounded-lg overflow-hidden shrink-0 shadow-2xl outline outline-1 outline-amber-700/30 group">
-              <Image src="/assets/vault-themes/blueprint.png" alt="Cyber-Resilience Blueprint" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <Image src="/Vault-2047/assets/vault-themes/blueprint.png" alt="Cyber-Resilience Blueprint" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
               {/* Optional ambient glow over image */}
               <div className="absolute inset-0 bg-gradient-to-tr from-amber-700/10 to-transparent pointer-events-none mix-blend-screen z-10"></div>
             </div>
@@ -234,31 +234,31 @@ export default function ThemesPage() {
                  {/* Set 1 */}
                  <div className="flex flex-col gap-6 animate-scrollVert shrink-0">
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution1.png" alt="National Policy" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution1.png" alt="National Policy" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution2.png" alt="Implementation" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution2.png" alt="Implementation" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution3.png" alt="Investment" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution3.png" alt="Investment" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution4.png" alt="Talent" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution4.png" alt="Talent" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                  </div>
                  {/* Duplicate for infinite loop */}
                  <div className="flex flex-col gap-6 animate-scrollVert shrink-0">
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution1.png" alt="National Policy" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution1.png" alt="National Policy" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution2.png" alt="Implementation" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution2.png" alt="Implementation" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution3.png" alt="Investment" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution3.png" alt="Investment" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                     <div className="w-full aspect-[16/10] relative rounded-lg overflow-hidden shrink-0 outline outline-1 outline-white/10">
-                      <Image src="/assets/vault-themes/execution4.png" alt="Talent" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      <Image src="/Vault-2047/assets/vault-themes/execution4.png" alt="Talent" fill className="object-cover hover:scale-105 transition-transform duration-700" />
                     </div>
                  </div>
                </div>

@@ -23,7 +23,7 @@ export default function CreateAccountPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/assets/login-bg.jpg"
+            src="/Vault-2047/assets/login-bg.jpg"
             alt="Audience Background"
             fill
             className="object-cover opacity-30"

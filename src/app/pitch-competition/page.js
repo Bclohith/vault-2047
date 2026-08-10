@@ -56,7 +56,7 @@ export default function PitchCompetitionPage() {
         <div className="w-full relative py-16 md:py-24 lg:py-32 flex justify-center items-center overflow-hidden">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0 z-0">
-            <Image src="/assets/startups/8d7be89ce2da469e8137543bf9dcb17046b145c1 (2).jpg" alt="Background" fill className="object-cover opacity-30 blur-sm" />
+            <Image src="/Vault-2047/assets/startups/8d7be89ce2da469e8137543bf9dcb17046b145c1 (2).jpg" alt="Background" fill className="object-cover opacity-30 blur-sm" />
             <div className="absolute inset-0 bg-gray-950/70" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#040b0e] via-transparent to-[#040b0e]" />
           </div>
@@ -67,7 +67,7 @@ export default function PitchCompetitionPage() {
               
               {/* Left Image */}
               <div className="w-full lg:w-[45%] h-64 md:h-80 lg:h-96 relative flex-shrink-0">
-                <Image src="/assets/startups/b5e2af53346cfaa5c84da9720afd94f6f74e6488 (2).jpg" alt="The Cyber Foundry" fill className="object-cover rounded-sm shadow-lg" />
+                <Image src="/Vault-2047/assets/startups/b5e2af53346cfaa5c84da9720afd94f6f74e6488 (2).jpg" alt="The Cyber Foundry" fill className="object-cover rounded-sm shadow-lg" />
               </div>
 
               {/* Right Text */}
@@ -200,7 +200,7 @@ export default function PitchCompetitionPage() {
                 
                 {/* Image */}
                 <div className="w-full h-64 md:h-80 relative overflow-hidden rounded-sm outline outline-1 outline-white/10">
-                  <Image src="/assets/startups/4601a9e172a23eeb37ff50026597ae7dac819fdd (1).png" alt="What's at Stake" fill className="object-cover" />
+                  <Image src="/Vault-2047/assets/startups/4601a9e172a23eeb37ff50026597ae7dac819fdd (1).png" alt="What's at Stake" fill className="object-cover" />
                 </div>
                 
               </div>
@@ -342,7 +342,7 @@ export default function PitchCompetitionPage() {
             
             {/* Background Image & Overlays for the inner box */}
             <div className="absolute inset-0 z-0">
-              <Image src="/assets/startups/b497463f5699922e1b8d779b821f6b1668397589 (6).jpg" alt="Join the Lineup" fill className="object-cover opacity-40" />
+              <Image src="/Vault-2047/assets/startups/b497463f5699922e1b8d779b821f6b1668397589 (6).jpg" alt="Join the Lineup" fill className="object-cover opacity-40" />
               <div className="absolute inset-0 bg-gradient-to-b from-gray-950/0 to-[#0e4343]/80" />
             </div>
 

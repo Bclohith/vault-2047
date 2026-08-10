@@ -95,7 +95,7 @@ export default function SponsorsPage() {
                 <div className="flex-1 h-px bg-amber-700/60" />
               </div>
               <div className="w-full h-64 md:h-96 relative bg-white border border-neutral-700 flex justify-center items-center rounded-sm shadow-xl hover:shadow-[0_0_30px_rgba(184,106,46,0.3)] transition-shadow duration-300">
-                <Image src="/assets/brands/brand-6.png" alt="Powered By Partner" fill className="object-contain p-12 md:p-24" />
+                <Image src="/Vault-2047/assets/brands/brand-6.png" alt="Powered By Partner" fill className="object-contain p-12 md:p-24" />
               </div>
             </div>
 
@@ -108,10 +108,10 @@ export default function SponsorsPage() {
               </div>
               <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                 <div className="w-full h-48 md:h-80 relative bg-white border border-neutral-700 flex justify-center items-center rounded-sm hover:shadow-[0_0_20px_rgba(13,102,101,0.2)] transition-shadow duration-300">
-                  <Image src="/assets/brands/brand-3.png" alt="Lead Sponsor 1" fill className="object-contain p-10 md:p-16" />
+                  <Image src="/Vault-2047/assets/brands/brand-3.png" alt="Lead Sponsor 1" fill className="object-contain p-10 md:p-16" />
                 </div>
                 <div className="w-full h-48 md:h-80 relative bg-white border border-neutral-700 flex justify-center items-center rounded-sm hover:shadow-[0_0_20px_rgba(13,102,101,0.2)] transition-shadow duration-300">
-                  <Image src="/assets/brands/brand-4.png" alt="Lead Sponsor 2" fill className="object-contain p-10 md:p-16" />
+                  <Image src="/Vault-2047/assets/brands/brand-4.png" alt="Lead Sponsor 2" fill className="object-contain p-10 md:p-16" />
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function SponsorsPage() {
             
             {/* Background Image & Overlays for the inner box */}
             <div className="absolute inset-0 z-0">
-              <Image src="/assets/ecosystem/b497463f5699922e1b8d779b821f6b1668397589 (7).jpg" alt="Join the Ecosystem" fill className="object-cover opacity-40" />
+              <Image src="/Vault-2047/assets/ecosystem/b497463f5699922e1b8d779b821f6b1668397589 (7).jpg" alt="Join the Ecosystem" fill className="object-cover opacity-40" />
               <div className="absolute inset-0 bg-gradient-to-b from-gray-950/0 to-[#0e4343]/80" />
             </div>
 

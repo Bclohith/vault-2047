@@ -7,37 +7,37 @@ export default function CoreThematicAreasSection() {
       id: "01",
       title: "Cyber Defence & Critical Infrastructure",
       description: "Securing financial systems, telecom networks, energy grids and national infrastructure.",
-      iconSrc: "/assets/thematic-icons/icon-1.svg"
+      iconSrc: "/Vault-2047/assets/thematic-icons/icon-1.svg"
     },
     {
       id: "02",
       title: "Emerging Threat Landscape",
       description: "Quantum security, dark web intelligence, advanced persistent threats, zero trust",
-      iconSrc: "/assets/thematic-icons/icon-2.svg"
+      iconSrc: "/Vault-2047/assets/thematic-icons/icon-2.svg"
     },
     {
       id: "03",
       title: "AI & Cyber Nexus",
       description: "Leveraging AI for threat detection while combating AI-driven cyber risk",
-      iconSrc: "/assets/thematic-icons/icon-3.svg"
+      iconSrc: "/Vault-2047/assets/thematic-icons/icon-3.svg"
     },
     {
       id: "04",
       title: "IT–OT–IoT Security Convergence",
       description: "Protecting connected industrial and enterprise ecosystems",
-      iconSrc: "/assets/thematic-icons/icon-4.svg"
+      iconSrc: "/Vault-2047/assets/thematic-icons/icon-4.svg"
     },
     {
       id: "05",
       title: "Cyber Talent & Skills Pipeline",
       description: "Building the next generation of cyber defenders through training and certification",
-      iconSrc: "/assets/thematic-icons/icon-5.svg"
+      iconSrc: "/Vault-2047/assets/thematic-icons/icon-5.svg"
     },
     {
       id: "06",
       title: "Digital Trust & Citizen Safety",
       description: "Strengthening cyber awareness and safeguarding digital identities",
-      iconSrc: "/assets/thematic-icons/icon-6.svg"
+      iconSrc: "/Vault-2047/assets/thematic-icons/icon-6.svg"
     }
   ];
 

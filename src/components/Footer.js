@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col items-start gap-6 lg:w-1/3">
           <div className="relative w-48 h-20 md:w-56 md:h-24">
             <Image 
-              src="/assets/footer-logo.svg" 
+              src="/Vault-2047/assets/footer-logo.svg" 
               alt="Vault 2047 Logo" 
               fill 
               className="object-contain object-left" 

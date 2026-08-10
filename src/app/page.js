@@ -32,14 +32,14 @@ export default function Home() {  const stats = [
 
         {/* Decorative L-Brackets */}
         <Image 
-          src="/assets/vector-1.svg"
+          src="/Vault-2047/assets/vector-1.svg"
           alt="Bracket Left"
           width={181}
           height={201}
           className="absolute z-10 bottom-[10%] md:bottom-[15%] left-[2%] md:left-[10%] lg:left-[15%] w-12 sm:w-16 md:w-20 lg:w-24"
         />
         <Image 
-          src="/assets/vector.svg"
+          src="/Vault-2047/assets/vector.svg"
           alt="Bracket Right"
           width={199}
           height={220}
@@ -93,7 +93,7 @@ export default function Home() {  const stats = [
         <div className="relative z-10 w-full max-w-[1200px] aspect-video group cursor-pointer">
           <div className="absolute inset-0 overflow-hidden shadow-2xl rounded-sm">
             <Image
-              src="/assets/audience.jpg"
+              src="/Vault-2047/assets/audience.jpg"
               alt="Audience"
               fill
               className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
@@ -106,7 +106,7 @@ export default function Home() {  const stats = [
           <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-24 md:h-24 flex items-center justify-center transition-all duration-300 group-hover:scale-110 shadow-xl"
                   style={{ background: "linear-gradient(136deg, #b86a2e 0%, #391f0a 100%)" }}>
             <Image
-              src="/assets/mdi_play.svg"
+              src="/Vault-2047/assets/mdi_play.svg"
               alt="Play"
               width={48}
               height={48}

@@ -3,17 +3,17 @@ import Image from "next/image";
 
 export default function BrandsSection() {
   const brands = [
-    { src: "/assets/brands/brand-1.png", alt: "Brand 1" },
-    { src: "/assets/brands/brand-2.png", alt: "Brand 2" },
-    { src: "/assets/brands/brand-3.png", alt: "Brand 3" },
-    { src: "/assets/brands/brand-4.png", alt: "Brand 4" },
-    { src: "/assets/brands/brand-5.png", alt: "Brand 5" },
-    { src: "/assets/brands/brand-6.png", alt: "Brand 6" },
-    { src: "/assets/brands/brand-7.png", alt: "Brand 7" },
-    { src: "/assets/brands/brand-8.png", alt: "Brand 8" },
-    { src: "/assets/brands/brand-9.png", alt: "Brand 9" },
-    { src: "/assets/brands/brand-10.png", alt: "Brand 10" },
-    { src: "/assets/brands/brand-11.png", alt: "Brand 11" },
+    { src: "/Vault-2047/assets/brands/brand-1.png", alt: "Brand 1" },
+    { src: "/Vault-2047/assets/brands/brand-2.png", alt: "Brand 2" },
+    { src: "/Vault-2047/assets/brands/brand-3.png", alt: "Brand 3" },
+    { src: "/Vault-2047/assets/brands/brand-4.png", alt: "Brand 4" },
+    { src: "/Vault-2047/assets/brands/brand-5.png", alt: "Brand 5" },
+    { src: "/Vault-2047/assets/brands/brand-6.png", alt: "Brand 6" },
+    { src: "/Vault-2047/assets/brands/brand-7.png", alt: "Brand 7" },
+    { src: "/Vault-2047/assets/brands/brand-8.png", alt: "Brand 8" },
+    { src: "/Vault-2047/assets/brands/brand-9.png", alt: "Brand 9" },
+    { src: "/Vault-2047/assets/brands/brand-10.png", alt: "Brand 10" },
+    { src: "/Vault-2047/assets/brands/brand-11.png", alt: "Brand 11" },
   ];
 
   // We duplicate the array to create a seamless infinite scrolling marquee
