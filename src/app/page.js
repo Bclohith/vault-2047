@@ -124,7 +124,7 @@ export default function Home() {  const stats = [
         <div 
           className="absolute inset-0 z-0 opacity-10 pointer-events-none"
           style={{
-            backgroundImage: "url('/assets/grid.png')",
+            backgroundImage: "url('/Vault-2047/assets/grid.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
