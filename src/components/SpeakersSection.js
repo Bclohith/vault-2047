@@ -54,7 +54,7 @@ export default function SpeakersSection() {
                 {/* Speaker Image */}
                 <div className="relative w-[85%] h-[90%] flex items-end justify-center z-10">
                   <Image
-                    src={`/assets/speaker-${(index % 4) + 1}.png`}
+                    src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/speaker-${(index % 4) + 1}.png`}
                     alt={speaker.name}
                     fill
                     className="object-contain object-bottom transition-transform duration-500 ease-in-out group-hover:scale-[1.05]"

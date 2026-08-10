@@ -100,7 +100,7 @@ export default function PitchCompetitionPage() {
             {/* Card 1 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/assets/startups/Icon (4).svg" alt="Strategic Capital Access" className="w-16 h-16 object-contain" />
+                 <img src="/Vault-2047/assets/startups/Icon (4).svg" alt="Strategic Capital Access" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -112,7 +112,7 @@ export default function PitchCompetitionPage() {
             {/* Card 2 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/assets/startups/oui_integration-general.svg" alt="Enterprise & Government Integration" className="w-16 h-16 object-contain" />
+                 <img src="/Vault-2047/assets/startups/oui_integration-general.svg" alt="Enterprise & Government Integration" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -124,7 +124,7 @@ export default function PitchCompetitionPage() {
             {/* Card 3 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/assets/startups/carbon_policy.svg" alt="Policy & Industry Visibility" className="w-16 h-16 object-contain" />
+                 <img src="/Vault-2047/assets/startups/carbon_policy.svg" alt="Policy & Industry Visibility" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -136,7 +136,7 @@ export default function PitchCompetitionPage() {
             {/* Card 4 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/assets/startups/Layer_1 (15).svg" alt="Elite Mentorship & Validation" className="w-16 h-16 object-contain" />
+                 <img src="/Vault-2047/assets/startups/Layer_1 (15).svg" alt="Elite Mentorship & Validation" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">

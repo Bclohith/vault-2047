@@ -242,14 +242,14 @@ export default function EcosystemPage() {
               {/* First Set of Logos */}
               {[1, 2, 3, 4, 5, 6].map((num) => (
                 <div key={`brand-set1-${num}`} className="h-full w-[200px] md:w-[240px] flex-shrink-0 relative flex justify-center items-center border-r border-gray-200 p-8">
-                  <Image src={`/assets/brands/brand-${num}.png`} alt={`Brand ${num}`} fill className="object-contain p-6 md:p-8" />
+                  <Image src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/brands/brand-${num}.png`} alt={`Brand ${num}`} fill className="object-contain p-6 md:p-8" />
                 </div>
               ))}
 
               {/* Second Set of Logos (Duplicate for seamless scroll) */}
               {[1, 2, 3, 4, 5, 6].map((num) => (
                 <div key={`brand-set2-${num}`} className="h-full w-[200px] md:w-[240px] flex-shrink-0 relative flex justify-center items-center border-r border-gray-200 p-8">
-                  <Image src={`/assets/brands/brand-${num}.png`} alt={`Brand ${num}`} fill className="object-contain p-6 md:p-8" />
+                  <Image src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/brands/brand-${num}.png`} alt={`Brand ${num}`} fill className="object-contain p-6 md:p-8" />
                 </div>
               ))}
               

@@ -119,7 +119,7 @@ export default function ApplyToExhibitPage() {
               {benefits.map((benefit, idx) => (
                 <div key={idx} className="w-[300px] sm:w-[350px] shrink-0 snap-start flex flex-col outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 bg-white/5 group hover:outline-[#B86A2E] transition-all duration-300">
                   <div className="w-full h-48 relative overflow-hidden">
-                    <img src={`/assets/${benefit.img}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt={benefit.title} />
+                    <img src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/${benefit.img}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt={benefit.title} />
                   </div>
                   <div className="flex-1 p-6 md:p-8 flex flex-col justify-start items-start gap-4 relative">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

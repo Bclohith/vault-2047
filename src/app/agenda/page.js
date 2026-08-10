@@ -239,7 +239,7 @@ export default function AgendaPage() {
                 {/* Image Section - Fixed Height */}
                 <div className="w-full h-[200px] lg:h-[250px] relative overflow-hidden">
                   <Image 
-                    src={`/assets/agenda/${exp.img}`} 
+                    src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/agenda/${exp.img}`} 
                     alt={exp.title} 
                     fill 
                     className="object-cover opacity-70 group-hover:opacity-100 transition-all duration-500" 

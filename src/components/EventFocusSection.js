@@ -91,7 +91,7 @@ export default function EventFocusSection() {
                 
                 {/* Background Image */}
                 <Image
-                  src={`/assets/focus-${index + 1}.png`}
+                  src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/focus-${index + 1}.png`}
                   alt={item.title}
                   fill
                   className="object-cover object-right opacity-30 group-hover:opacity-50 transition-opacity duration-700 z-0"

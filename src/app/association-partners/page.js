@@ -72,7 +72,7 @@ export default function AssociationPartnersPage() {
             <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
               {[11, 10, 9, 8, 7, 6].map((num) => (
                 <div key={num} className="w-full h-48 md:h-64 bg-white outline outline-1 outline-offset-[-1px] outline-neutral-700 flex justify-center items-center p-12 hover:shadow-[0_0_20px_rgba(255,255,255,0.15)] transition-shadow cursor-pointer">
-                  <img className="max-w-[80%] max-h-[80%] object-contain" src={`/assets/brands/brand-${num}.png`} alt={`Association Partner ${num}`} />
+                  <img className="max-w-[80%] max-h-[80%] object-contain" src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/brands/brand-${num}.png`} alt={`Association Partner ${num}`} />
                 </div>
               ))}
             </div>

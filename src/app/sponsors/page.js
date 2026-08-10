@@ -126,7 +126,7 @@ export default function SponsorsPage() {
               <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                 {[1, 2, 5].map((num) => (
                   <div key={`plat-${num}`} className="w-full h-40 md:h-64 relative bg-white border border-neutral-700 flex justify-center items-center rounded-sm hover:border-neutral-400 transition-colors">
-                    <Image src={`/assets/brands/brand-${num}.png`} alt={`Platinum Sponsor ${num}`} fill className="object-contain p-8 md:p-12" />
+                    <Image src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/brands/brand-${num}.png`} alt={`Platinum Sponsor ${num}`} fill className="object-contain p-8 md:p-12" />
                   </div>
                 ))}
               </div>
@@ -142,7 +142,7 @@ export default function SponsorsPage() {
               <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
                 {[7, 8, 9, 10].map((num) => (
                   <div key={`gold-${num}`} className="w-full h-32 md:h-44 relative bg-white border border-neutral-700 flex justify-center items-center rounded-sm hover:border-neutral-400 transition-colors">
-                    <Image src={`/assets/brands/brand-${num}.png`} alt={`Gold Sponsor ${num}`} fill className="object-contain p-6 md:p-10" />
+                    <Image src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/brands/brand-${num}.png`} alt={`Gold Sponsor ${num}`} fill className="object-contain p-6 md:p-10" />
                   </div>
                 ))}
               </div>
@@ -158,7 +158,7 @@ export default function SponsorsPage() {
               <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6">
                 {[11, 1, 2, 3, 4, 5].map((num, i) => (
                   <div key={`silv-${i}`} className="w-full h-20 md:h-24 relative bg-white border border-neutral-700 flex justify-center items-center rounded-sm hover:border-neutral-400 transition-colors">
-                    <Image src={`/assets/brands/brand-${num}.png`} alt={`Silver Sponsor ${num}`} fill className="object-contain p-4 md:p-6" />
+                    <Image src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/brands/brand-${num}.png`} alt={`Silver Sponsor ${num}`} fill className="object-contain p-4 md:p-6" />
                   </div>
                 ))}
               </div>

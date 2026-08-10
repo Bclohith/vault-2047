@@ -156,7 +156,7 @@ export default function ThemesPage() {
                   
                   {/* Icon */}
                   <div className="w-16 h-16 relative flex items-center justify-center shrink-0">
-                    <Image src={`/assets/vault-themes/${theme.icon}`} alt={theme.title} fill className="object-contain" />
+                    <Image src={`${process.env.NODE_ENV === 'production' ? '/Vault-2047' : ''}/assets/vault-themes/${theme.icon}`} alt={theme.title} fill className="object-contain" />
                   </div>
                   
                   {/* Content */}
