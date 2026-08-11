@@ -3,22 +3,34 @@ import Link from "next/link";
 
 export default function GetYourPassPage() {
   return (
-    <div className="w-full min-h-screen bg-[#040b0e] flex flex-col">
+    <div className="flex flex-col min-h-screen bg-[#040b0e]">
       
-      {/* Sub-navigation */}
-      <div className="w-full bg-[#101010] border-b border-white/10 flex justify-center items-center py-4">
-        <div className="flex justify-center items-center gap-8">
-          <Link href="/create-account" className="text-white/70 hover:text-white transition-colors text-sm font-semibold uppercase tracking-wider" style={{ fontFamily: "var(--font-ibm)" }}>
-            Create new account
-          </Link>
-          <div className="text-[#B86A2E] text-sm font-semibold uppercase tracking-wider" style={{ fontFamily: "var(--font-ibm)" }}>
-            Get Your Pass
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
+        
+        {/* Sub-Navigation Bar (Directly below header) */}
+        <div className="w-full px-9 py-3 bg-gray-950 flex flex-col md:flex-row justify-between items-center overflow-hidden border-b border-white/5 z-20 relative">
+          <div className="flex-1 flex justify-center items-center divide-x divide-white/10 w-full max-w-[1200px] mx-auto">
+            <Link href="/create-account" className="flex-1 px-4 md:px-6 py-2 flex justify-center items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors text-center">
+              <div 
+                className="text-white/70 hover:text-white text-xs md:text-sm font-semibold uppercase tracking-tight transition-colors"
+                style={{ fontFamily: "var(--font-ibm)" }}
+              >
+                Create new account
+              </div>
+            </Link>
+            <Link href="/get-your-pass" className="flex-1 px-4 md:px-6 py-2 flex justify-center items-center gap-1.5 cursor-pointer hover:bg-white/5 transition-colors text-center">
+              <div 
+                className="text-[#B86A2E] text-xs md:text-sm font-semibold uppercase tracking-tight transition-colors"
+                style={{ fontFamily: "var(--font-ibm)" }}
+              >
+                Get Your Pass
+              </div>
+            </Link>
           </div>
         </div>
-      </div>
 
-      {/* Main Content Container */}
-      <main className="flex-1 w-full flex flex-col items-center py-16 md:py-24 px-4 md:px-12 lg:px-[120px] relative">
+        {/* Main Content Container */}
+        <div className="w-full flex flex-col items-center py-16 md:py-24 px-4 md:px-12 lg:px-[120px] relative">
         
         <div className="w-full max-w-[1200px] flex flex-col justify-start items-center gap-16 relative z-10">
           
@@ -155,7 +167,7 @@ export default function GetYourPassPage() {
 
           </div>
         </div>
-
+        </div>
       </main>
     </div>
   );

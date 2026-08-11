@@ -18,6 +18,20 @@ export default function Header() {
     { name: "Knowledge hub", href: "/knowledge-hub" },
   ];
 
+  const isLinkActive = (link, currentPath) => {
+    let active = currentPath === link.href;
+    if (link.name === "Ecosystem") {
+      active = active || ["/sponsors", "/exhibitors", "/media-partners", "/association-partners"].includes(currentPath);
+    } else if (link.name === "Attend") {
+      active = active || ["/create-account", "/get-your-pass"].includes(currentPath);
+    } else if (link.name === "Startups") {
+      active = active || ["/attend-startup", "/exhibit-startup", "/pitch-competition"].includes(currentPath);
+    } else if (link.name === "Collaborate") {
+      active = active || ["/apply-to-sponsor", "/apply-to-exhibit", "/be-a-media-partner", "/be-an-association-partner", "/download-assets"].includes(currentPath);
+    }
+    return active;
+  };
+
   return (
     <header className="w-full fixed top-0 left-0 z-50 bg-[#171717] border-b border-white/10">
       <div className="w-full max-w-[1440px] mx-auto px-6 py-4 md:px-16 flex justify-between items-center h-20 md:h-24">
@@ -37,18 +51,7 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
           {navLinks.map((link, index) => {
-            // Active if exact match or if we're inside a subpage of that category (e.g. /ecosystem/sponsors doesn't exist yet but if we add /sponsors it's separate)
-            // Since exhibitors/sponsors are currently top-level routes (/sponsors, etc.), let's see. Wait, if we are on /sponsors, should ecosystem be highlighted?
-            // The user says "if we open Main navbar that will underline not subnav". This implies they just want the main navbar items to show an active underline when clicked.
-            // Check if current pathname matches exactly, or if we are in a subpage of this category
-            let isActive = pathname === link.href;
-            if (link.name === "Ecosystem") {
-              isActive = isActive || ["/sponsors", "/exhibitors", "/media-partners", "/association-partners"].includes(pathname);
-            } else if (link.name === "Attend") {
-              isActive = isActive || ["/create-account", "/get-your-pass"].includes(pathname);
-            } else if (link.name === "Startups") {
-              isActive = isActive || ["/attend-startup", "/exhibit-startup", "/pitch-competition"].includes(pathname);
-            }
+            const isActive = isLinkActive(link, pathname);
             return (
               <Link 
                 key={index}
@@ -100,17 +103,22 @@ export default function Header() {
       {/* Mobile Navigation Dropdown */}
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-[#171717] border-b border-white/10 flex flex-col shadow-xl">
-          {navLinks.map((link, index) => (
-            <Link 
-              key={index}
-              href={link.href}
-              className="px-6 py-4 text-white/70 hover:text-white hover:bg-white/5 text-base font-semibold border-b border-white/5 transition-colors"
-              style={{ fontFamily: "var(--font-ibm)" }}
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              {link.name}
-            </Link>
-          ))}
+          {navLinks.map((link, index) => {
+            const isActive = isLinkActive(link, pathname);
+            return (
+              <Link 
+                key={index}
+                href={link.href}
+                className={`px-6 py-4 text-base font-semibold border-b border-white/5 transition-colors ${
+                  isActive ? "text-[#B86A2E]" : "text-white/70 hover:text-white hover:bg-white/5"
+                }`}
+                style={{ fontFamily: "var(--font-ibm)" }}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
           <div className="flex flex-col gap-3 p-6">
             <button 
               className="w-full h-12 bg-white/10 border border-white/20 text-white text-sm font-semibold uppercase tracking-tight"

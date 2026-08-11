@@ -1,7 +1,9 @@
 "use client";
 
 import React, { useRef } from 'react';
+import CollaborateSubnav from "../../components/CollaborateSubnav";
 import MatrixHeroBackground from '../../components/MatrixHeroBackground';
+import Footer from "../../components/Footer";
 
 export default function BeAssociationPartnerPage() {
   const carouselRef = useRef(null);
@@ -48,7 +50,8 @@ export default function BeAssociationPartnerPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#0a0a0a]">
-      <main className="flex-grow flex flex-col items-center justify-start">
+      <main className="flex-grow flex flex-col items-center justify-start pt-20 md:pt-24">
+        <CollaborateSubnav />
         
         {/* Hero Section */}
         <div className="w-full relative self-stretch min-h-[400px] md:min-h-[500px] bg-[#040b0e] flex flex-col justify-center items-center overflow-hidden py-16">
@@ -166,6 +169,7 @@ export default function BeAssociationPartnerPage() {
         </div>
 
       </main>
+      <Footer />
     </div>
   );
 }
