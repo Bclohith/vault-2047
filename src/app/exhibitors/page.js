@@ -92,7 +92,7 @@ export default function ExhibitorsPage() {
             
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
-              <img src="/Vault-2047/assets/ecosystem/eco-join-bg.jpg" alt="Audience" className="w-full h-full object-cover opacity-40 mix-blend-lighten" />
+              <img src="/assets/ecosystem/eco-join-bg.jpg" alt="Audience" className="w-full h-full object-cover opacity-40 mix-blend-lighten" />
             </div>
             
             {/* Teal Gradient Overlay */}

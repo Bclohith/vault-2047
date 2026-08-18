@@ -77,16 +77,16 @@ export default function StartupsPage() {
             <div className="absolute top-0 left-0 h-full flex w-[200%] animate-scroll-horizontal group-hover:[animation-play-state:paused]">
               
               <div className="w-1/2 h-full flex items-center justify-around gap-4 px-2">
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/b0399b8c6a2c0283c13cb9d1e72a132fb44eb0be (1).png" alt="Startup 1" fill className="object-cover rounded-md" /></div>
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/ad7d37b9a55dce7f2273634de8f7755ebb7b3047 (1).png" alt="Startup 2" fill className="object-cover rounded-md" /></div>
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/c68bdeb40527b99c0ccc8aca218963b26b9f3b11 (1).png" alt="Startup 3" fill className="object-cover rounded-md" /></div>
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/a3f4ea6c4aaa8ed0da82a97c1c6b636cdea78593 (1).png" alt="Startup 4" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/b0399b8c6a2c0283c13cb9d1e72a132fb44eb0be (1).png" alt="Startup 1" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/ad7d37b9a55dce7f2273634de8f7755ebb7b3047 (1).png" alt="Startup 2" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/c68bdeb40527b99c0ccc8aca218963b26b9f3b11 (1).png" alt="Startup 3" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/a3f4ea6c4aaa8ed0da82a97c1c6b636cdea78593 (1).png" alt="Startup 4" fill className="object-cover rounded-md" /></div>
               </div>
               <div className="w-1/2 h-full flex items-center justify-around gap-4 px-2">
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/b0399b8c6a2c0283c13cb9d1e72a132fb44eb0be (1).png" alt="Startup 1" fill className="object-cover rounded-md" /></div>
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/ad7d37b9a55dce7f2273634de8f7755ebb7b3047 (1).png" alt="Startup 2" fill className="object-cover rounded-md" /></div>
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/c68bdeb40527b99c0ccc8aca218963b26b9f3b11 (1).png" alt="Startup 3" fill className="object-cover rounded-md" /></div>
-                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/a3f4ea6c4aaa8ed0da82a97c1c6b636cdea78593 (1).png" alt="Startup 4" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/b0399b8c6a2c0283c13cb9d1e72a132fb44eb0be (1).png" alt="Startup 1" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/ad7d37b9a55dce7f2273634de8f7755ebb7b3047 (1).png" alt="Startup 2" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/c68bdeb40527b99c0ccc8aca218963b26b9f3b11 (1).png" alt="Startup 3" fill className="object-cover rounded-md" /></div>
+                <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/a3f4ea6c4aaa8ed0da82a97c1c6b636cdea78593 (1).png" alt="Startup 4" fill className="object-cover rounded-md" /></div>
               </div>
             </div>
             
@@ -121,7 +121,7 @@ export default function StartupsPage() {
           <div className="w-full max-w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             <div className="w-full bg-white/5 outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 flex flex-col justify-start items-start gap-4 overflow-hidden group hover:outline-[#B86A2E]/70 transition-all">
               <div className="w-full aspect-[2/1] relative overflow-hidden">
-                <Image src="/Vault-2047/assets/startups/29cd6a3692daca7f3e9b208ee7a6a5be5fb67598 (1).png" alt="Unfiltered Access" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/startups/29cd6a3692daca7f3e9b208ee7a6a5be5fb67598 (1).png" alt="Unfiltered Access" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full p-8 flex flex-col justify-start items-start gap-3">
                 <div className="w-full justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">Unfiltered Access</div>
@@ -133,7 +133,7 @@ export default function StartupsPage() {
 
             <div className="w-full bg-white/5 outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 flex flex-col justify-start items-start gap-4 overflow-hidden group hover:outline-[#B86A2E]/70 transition-all">
               <div className="w-full aspect-[2/1] relative overflow-hidden">
-                <Image src="/Vault-2047/assets/startups/0569bcac3d32ed48c5cd9e426578a3d88ac979d5 (1).png" alt="Accelerated Growth" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/startups/0569bcac3d32ed48c5cd9e426578a3d88ac979d5 (1).png" alt="Accelerated Growth" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full p-8 flex flex-col justify-start items-start gap-3">
                 <div className="w-full justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">Accelerated Growth</div>
@@ -145,7 +145,7 @@ export default function StartupsPage() {
 
             <div className="w-full bg-white/5 outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 flex flex-col justify-start items-start gap-4 overflow-hidden group hover:outline-[#B86A2E]/70 transition-all">
               <div className="w-full aspect-[2/1] relative overflow-hidden">
-                <Image src="/Vault-2047/assets/startups/0572cc8d6181adbfbde8b0c78a64eeb639d7689e (1).png" alt="Real Market Opportunities" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/startups/0572cc8d6181adbfbde8b0c78a64eeb639d7689e (1).png" alt="Real Market Opportunities" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full p-8 flex flex-col justify-start items-start gap-3">
                 <div className="w-full justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">Real Market Opportunities</div>
@@ -218,14 +218,14 @@ export default function StartupsPage() {
                 <div className="absolute top-0 right-0 h-full flex w-[200%] animate-scroll-horizontal-reverse group-hover:[animation-play-state:paused]">
                   
                   <div className="w-1/2 h-full flex items-center justify-around gap-4 px-2">
-                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/e4d29a2fddbeaff0dbf51fd9f2c68d5e741e0c01 (1).png" alt="Experience 1" fill className="object-cover rounded-md" /></div>
-                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/26ad5c312b6e579ed96b82387d71ce49546e1096 (1).png" alt="Experience 2" fill className="object-cover rounded-md" /></div>
-                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/3227a945a7998f7cefd92006eec8bb3785ce434f (1).png" alt="Experience 3" fill className="object-cover rounded-md" /></div>
+                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/e4d29a2fddbeaff0dbf51fd9f2c68d5e741e0c01 (1).png" alt="Experience 1" fill className="object-cover rounded-md" /></div>
+                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/26ad5c312b6e579ed96b82387d71ce49546e1096 (1).png" alt="Experience 2" fill className="object-cover rounded-md" /></div>
+                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/3227a945a7998f7cefd92006eec8bb3785ce434f (1).png" alt="Experience 3" fill className="object-cover rounded-md" /></div>
                   </div>
                   <div className="w-1/2 h-full flex items-center justify-around gap-4 px-2">
-                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/e4d29a2fddbeaff0dbf51fd9f2c68d5e741e0c01 (1).png" alt="Experience 1" fill className="object-cover rounded-md" /></div>
-                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/26ad5c312b6e579ed96b82387d71ce49546e1096 (1).png" alt="Experience 2" fill className="object-cover rounded-md" /></div>
-                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/Vault-2047/assets/startups/3227a945a7998f7cefd92006eec8bb3785ce434f (1).png" alt="Experience 3" fill className="object-cover rounded-md" /></div>
+                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/e4d29a2fddbeaff0dbf51fd9f2c68d5e741e0c01 (1).png" alt="Experience 1" fill className="object-cover rounded-md" /></div>
+                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/26ad5c312b6e579ed96b82387d71ce49546e1096 (1).png" alt="Experience 2" fill className="object-cover rounded-md" /></div>
+                    <div className="w-[300px] h-full relative p-2.5 shrink-0"><Image src="/assets/startups/3227a945a7998f7cefd92006eec8bb3785ce434f (1).png" alt="Experience 3" fill className="object-cover rounded-md" /></div>
                   </div>
                 </div>
                 
@@ -248,7 +248,7 @@ export default function StartupsPage() {
             
             <div className="w-full h-auto min-h-[400px] md:h-[509px] p-8 relative bg-gradient-to-b from-black/0 to-stone-950/0 outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 flex flex-col justify-between items-start overflow-hidden group hover:outline-[#B86A2E] hover:-translate-y-2 transition-all duration-300">
               <div className="size-14 relative overflow-hidden">
-                <Image src="/Vault-2047/assets/startups/Icon (2).svg" alt="Cyber Foundry" width={56} height={56} className="text-[#B86A2E] filter drop-shadow-md" />
+                <Image src="/assets/startups/Icon (2).svg" alt="Cyber Foundry" width={56} height={56} className="text-[#B86A2E] filter drop-shadow-md" />
               </div>
               
               <div className="w-full h-36 flex flex-col justify-end items-start gap-3 relative z-10">
@@ -263,7 +263,7 @@ export default function StartupsPage() {
 
             <div className="w-full h-auto min-h-[400px] md:h-[509px] p-8 relative bg-gradient-to-b from-black/0 to-stone-950/0 outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 flex flex-col justify-between items-start overflow-hidden group hover:outline-[#B86A2E] hover:-translate-y-2 transition-all duration-300">
               <div className="size-14 relative overflow-hidden">
-                <Image src="/Vault-2047/assets/startups/_material-symbols-light_ads-click-rounded (1).svg" alt="Investor Access" width={56} height={56} className="text-[#B86A2E] filter drop-shadow-md" />
+                <Image src="/assets/startups/_material-symbols-light_ads-click-rounded (1).svg" alt="Investor Access" width={56} height={56} className="text-[#B86A2E] filter drop-shadow-md" />
               </div>
               
               <div className="w-full h-36 flex flex-col justify-end items-start gap-3 relative z-10">
@@ -277,7 +277,7 @@ export default function StartupsPage() {
 
             <div className="w-full h-auto min-h-[400px] md:h-[509px] p-8 relative bg-gradient-to-b from-black/0 to-stone-950/0 outline outline-1 outline-offset-[-0.50px] outline-[#B86A2E]/30 flex flex-col justify-between items-start overflow-hidden group hover:outline-[#B86A2E] hover:-translate-y-2 transition-all duration-300">
               <div className="size-14 relative overflow-hidden">
-                <Image src="/Vault-2047/assets/startups/_material-symbols-light_airwave (1).svg" alt="Innovation Zone" width={56} height={56} className="text-[#B86A2E] filter drop-shadow-md" />
+                <Image src="/assets/startups/_material-symbols-light_airwave (1).svg" alt="Innovation Zone" width={56} height={56} className="text-[#B86A2E] filter drop-shadow-md" />
               </div>
               
               <div className="w-full h-36 flex flex-col justify-end items-start gap-3 relative z-10">

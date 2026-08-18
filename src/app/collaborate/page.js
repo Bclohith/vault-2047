@@ -54,7 +54,7 @@ export default function CollaboratePage() {
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
             <Image 
-              src="/Vault-2047/assets/collaborate/collab-bg.png" 
+              src="/assets/collaborate/collab-bg.png" 
               alt="Background" 
               fill 
               className="object-cover opacity-20 md:opacity-30 mix-blend-lighten" 
@@ -93,7 +93,7 @@ export default function CollaboratePage() {
             <div className="w-full lg:w-[45%] flex justify-center lg:justify-end items-center">
               <div className="w-full max-w-[500px] aspect-[4/3] relative rounded-sm overflow-hidden shadow-2xl border border-white/10">
                 <Image 
-                  src="/Vault-2047/assets/collaborate/collab-img.png" 
+                  src="/assets/collaborate/collab-img.png" 
                   alt="Cyber-Resilience Ecosystem" 
                   fill 
                   className="object-cover" 
@@ -109,7 +109,7 @@ export default function CollaboratePage() {
             {/* Card 1 */}
             <div className="w-full flex flex-col justify-start items-stretch outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 overflow-hidden group">
               <div className="w-full h-[300px] md:h-[350px] relative overflow-hidden">
-                <Image src="/Vault-2047/assets/collaborate/collab-card-1.png" alt="Strategic Collaboration" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/collaborate/collab-card-1.png" alt="Strategic Collaboration" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-8 bg-white/5 flex flex-col justify-start items-start gap-4">
                 <h3 className="w-full text-xl font-semibold font-['IBM_Plex_Sans']">
@@ -124,7 +124,7 @@ export default function CollaboratePage() {
             {/* Card 2 */}
             <div className="w-full flex flex-col justify-start items-stretch outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 overflow-hidden group">
               <div className="w-full h-[300px] md:h-[350px] relative overflow-hidden">
-                <Image src="/Vault-2047/assets/collaborate/collab-card-2.png" alt="Innovation Showcases" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/collaborate/collab-card-2.png" alt="Innovation Showcases" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-8 bg-white/5 flex flex-col justify-start items-start gap-4">
                 <h3 className="w-full text-xl font-semibold font-['IBM_Plex_Sans']">
@@ -139,7 +139,7 @@ export default function CollaboratePage() {
             {/* Card 3 */}
             <div className="w-full flex flex-col justify-start items-stretch outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 overflow-hidden group">
               <div className="w-full h-[300px] md:h-[350px] relative overflow-hidden">
-                <Image src="/Vault-2047/assets/collaborate/collab-card-3.png" alt="Policy Access" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/collaborate/collab-card-3.png" alt="Policy Access" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-8 bg-white/5 flex flex-col justify-start items-start gap-4">
                 <h3 className="w-full text-xl font-semibold font-['IBM_Plex_Sans']">

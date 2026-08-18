@@ -64,7 +64,7 @@ export default function EcosystemPage() {
         <div className="w-full relative py-16 md:py-24 lg:py-32 flex justify-center items-center overflow-hidden">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0 z-0">
-            <Image src="/Vault-2047/assets/ecosystem/b5e2af53346cfaa5c84da9720afd94f6f74e6488 (3).jpg" alt="Background" fill className="object-cover opacity-30 blur-sm" />
+            <Image src="/assets/ecosystem/b5e2af53346cfaa5c84da9720afd94f6f74e6488 (3).jpg" alt="Background" fill className="object-cover opacity-30 blur-sm" />
             <div className="absolute inset-0 bg-gray-950/70" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#040b0e] via-transparent to-[#040b0e]" />
           </div>
@@ -85,7 +85,7 @@ export default function EcosystemPage() {
 
               {/* Right Image */}
               <div className="w-full lg:w-[45%] h-64 md:h-80 lg:h-96 relative flex-shrink-0">
-                <Image src="/Vault-2047/assets/ecosystem/d505eab5db4d47e2bd73d9eb50317f91ba766a70 (1).png" alt="Ecosystem Gateway" fill className="object-cover rounded-sm shadow-lg" />
+                <Image src="/assets/ecosystem/d505eab5db4d47e2bd73d9eb50317f91ba766a70 (1).png" alt="Ecosystem Gateway" fill className="object-cover rounded-sm shadow-lg" />
               </div>
 
             </div>
@@ -106,7 +106,7 @@ export default function EcosystemPage() {
             {/* SPONSORS */}
             <div className="w-full outline outline-1 outline-amber-700/30 flex flex-col hover:outline-amber-700 transition-colors group bg-black/10">
               <div className="w-full h-48 relative overflow-hidden flex-shrink-0">
-                <Image src="/Vault-2047/assets/ecosystem/7b7ea6f12cf25d478bc4d510289a581ba34b4cca (1).png" alt="Sponsors" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/ecosystem/7b7ea6f12cf25d478bc4d510289a581ba34b4cca (1).png" alt="Sponsors" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-6 relative flex flex-col gap-6 overflow-hidden">
                 {/* Glow effects */}
@@ -135,7 +135,7 @@ export default function EcosystemPage() {
             {/* EXHIBITORS */}
             <div className="w-full outline outline-1 outline-amber-700/30 flex flex-col hover:outline-amber-700 transition-colors group bg-black/10">
               <div className="w-full h-48 relative overflow-hidden flex-shrink-0">
-                <Image src="/Vault-2047/assets/ecosystem/82a7fa4ba3a85e8ea440214f56ab029428bf2e45 (1).png" alt="Exhibitors" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/ecosystem/82a7fa4ba3a85e8ea440214f56ab029428bf2e45 (1).png" alt="Exhibitors" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-6 relative flex flex-col gap-6 overflow-hidden">
                 <div className="absolute w-60 h-60 -right-10 -bottom-10 opacity-30 bg-teal-800 rounded-full blur-[52px]" />
@@ -163,7 +163,7 @@ export default function EcosystemPage() {
             {/* MEDIA */}
             <div className="w-full outline outline-1 outline-amber-700/30 flex flex-col hover:outline-amber-700 transition-colors group bg-black/10">
               <div className="w-full h-48 relative overflow-hidden flex-shrink-0">
-                <Image src="/Vault-2047/assets/ecosystem/8932cd1140ebcb775ac9bd97a90967304c4136ef (1).png" alt="Media" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/ecosystem/8932cd1140ebcb775ac9bd97a90967304c4136ef (1).png" alt="Media" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-6 relative flex flex-col gap-6 overflow-hidden">
                 <div className="absolute w-60 h-60 -right-10 -bottom-10 opacity-30 bg-teal-800 rounded-full blur-[52px]" />
@@ -191,7 +191,7 @@ export default function EcosystemPage() {
             {/* ASSOCIATIONS */}
             <div className="w-full outline outline-1 outline-amber-700/30 flex flex-col hover:outline-amber-700 transition-colors group bg-black/10">
               <div className="w-full h-48 relative overflow-hidden flex-shrink-0">
-                <Image src="/Vault-2047/assets/ecosystem/bd9baffea3e9b21c21ef8dd6cf1cfb95b032a71f (1).png" alt="Associations & Institutions" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                <Image src="/assets/ecosystem/bd9baffea3e9b21c21ef8dd6cf1cfb95b032a71f (1).png" alt="Associations & Institutions" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="w-full flex-1 p-6 relative flex flex-col gap-6 overflow-hidden">
                 <div className="absolute w-60 h-60 -right-10 -bottom-10 opacity-30 bg-teal-800 rounded-full blur-[52px]" />
@@ -273,7 +273,7 @@ export default function EcosystemPage() {
             
             {/* Background Image & Overlays for the inner box */}
             <div className="absolute inset-0 z-0">
-              <Image src="/Vault-2047/assets/ecosystem/b497463f5699922e1b8d779b821f6b1668397589 (7).jpg" alt="Join the Ecosystem" fill className="object-cover opacity-40" />
+              <Image src="/assets/ecosystem/b497463f5699922e1b8d779b821f6b1668397589 (7).jpg" alt="Join the Ecosystem" fill className="object-cover opacity-40" />
               <div className="absolute inset-0 bg-gradient-to-b from-gray-950/0 to-[#0e4343]/80" />
             </div>
 

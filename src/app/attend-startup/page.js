@@ -63,16 +63,16 @@ export default function AttendAsStartupPage() {
               {/* Scroll track (animated) */}
               <div className="flex animate-scroll-left w-[300%] h-full hover:[animation-play-state:paused] items-center gap-6">
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/2dbc403b030780f8605d854eda7ad2d074559960 (1).png" alt="Startup Showcase" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/2dbc403b030780f8605d854eda7ad2d074559960 (1).png" alt="Startup Showcase" fill />
                 </div>
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/7acb98c03f0fa63fa0d47fd04024745cd91add72 (1).png" alt="Networking" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/7acb98c03f0fa63fa0d47fd04024745cd91add72 (1).png" alt="Networking" fill />
                 </div>
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/93438dad1ff86ac3ed410e9f44a5588217370ec3 (1).png" alt="Pitch" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/93438dad1ff86ac3ed410e9f44a5588217370ec3 (1).png" alt="Pitch" fill />
                 </div>
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/2dbc403b030780f8605d854eda7ad2d074559960 (1).png" alt="Startup Showcase" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/2dbc403b030780f8605d854eda7ad2d074559960 (1).png" alt="Startup Showcase" fill />
                 </div>
               </div>
               {/* Gradient Overlay for fade effect */}
@@ -113,7 +113,7 @@ export default function AttendAsStartupPage() {
               {/* Card 1 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <Image src="/Vault-2047/assets/startups/4532265b34b6891806beda1b9f87bf0799caacf7 (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Investor Access" />
+                  <Image src="/assets/startups/4532265b34b6891806beda1b9f87bf0799caacf7 (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Investor Access" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -127,7 +127,7 @@ export default function AttendAsStartupPage() {
               {/* Card 2 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <Image src="/Vault-2047/assets/startups/cf68fed8c57db7054338666f906418c756614f8d (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Innovation Showcase" />
+                  <Image src="/assets/startups/cf68fed8c57db7054338666f906418c756614f8d (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Innovation Showcase" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -141,7 +141,7 @@ export default function AttendAsStartupPage() {
               {/* Card 3 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <Image src="/Vault-2047/assets/startups/cd712229307ade65a443f49d43c5d7302a144bee (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Strategic Networking" />
+                  <Image src="/assets/startups/cd712229307ade65a443f49d43c5d7302a144bee (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Strategic Networking" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">
@@ -155,7 +155,7 @@ export default function AttendAsStartupPage() {
               {/* Card 4 */}
               <div className="w-full h-64 md:h-72 relative bg-white/5 outline outline-1 outline-offset-[-1px] outline-[#B86A2E]/30 flex flex-col justify-center items-start overflow-hidden group">
                 <div className="absolute right-0 top-0 w-3/5 md:w-1/2 h-full z-0 overflow-hidden">
-                  <Image src="/Vault-2047/assets/startups/1f23bcade5b82355a5e709138ead923463f1b45d (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Enterprise & Government" />
+                  <Image src="/assets/startups/1f23bcade5b82355a5e709138ead923463f1b45d (1).png" fill className="object-cover object-left opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" alt="Enterprise & Government" />
                   <div className="absolute inset-0 bg-gradient-to-r from-neutral-900 via-neutral-900/80 to-transparent"></div>
                 </div>
                 <div className="relative z-10 w-full md:w-[65%] p-6 md:p-8 flex flex-col justify-center items-start gap-4">

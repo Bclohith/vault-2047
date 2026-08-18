@@ -94,7 +94,7 @@ export default function BeAssociationPartnerPage() {
               onClick={scrollLeft}
               className="hidden lg:flex w-16 h-24 bg-zinc-800/50 hover:bg-[#B86A2E]/80 border border-white/20 backdrop-blur-md justify-center items-center transition-colors shrink-0 z-10 group cursor-pointer"
             >
-              <img src="/Vault-2047/assets/arrow-icon.svg" className="w-8 h-8 rotate-180 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity pointer-events-none" alt="Previous" />
+              <img src="/assets/arrow-icon.svg" className="w-8 h-8 rotate-180 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity pointer-events-none" alt="Previous" />
             </button>
             
             {/* Carousel Container */}
@@ -125,7 +125,7 @@ export default function BeAssociationPartnerPage() {
               onClick={scrollRight}
               className="hidden lg:flex w-16 h-24 bg-zinc-800/50 hover:bg-[#B86A2E]/80 border border-white/20 backdrop-blur-md justify-center items-center transition-colors shrink-0 z-10 group cursor-pointer"
             >
-              <img src="/Vault-2047/assets/arrow-icon.svg" className="w-8 h-8 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity pointer-events-none" alt="Next" />
+              <img src="/assets/arrow-icon.svg" className="w-8 h-8 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity pointer-events-none" alt="Next" />
             </button>
             
           </div>
@@ -143,7 +143,7 @@ export default function BeAssociationPartnerPage() {
             <div className="w-full relative bg-[#073635] flex flex-col justify-center items-center py-10 md:py-10 lg:py-10 gap-10 overflow-hidden shadow-2xl z-10">
               {/* Background Image & Gradient */}
               <div className="absolute inset-0 z-0">
-                <img src="/Vault-2047/assets/collab-cta-bg.jpg" className="w-full h-full object-cover opacity-20 mix-blend-screen grayscale" alt="Audience" />
+                <img src="/assets/collab-cta-bg.jpg" className="w-full h-full object-cover opacity-20 mix-blend-screen grayscale" alt="Audience" />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/80 via-[#073635]/60 to-[#0b5453]" />
               </div>
 

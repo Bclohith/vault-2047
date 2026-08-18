@@ -72,16 +72,16 @@ export default function ExhibitStartupPage() {
               {/* Scroll track (animated) */}
               <div className="flex animate-scroll-left w-[300%] h-full hover:[animation-play-state:paused] items-center gap-6">
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/7de4bcadf35d4c72527343a24f080286973ff63c (1).png" alt="Showcase 1" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/7de4bcadf35d4c72527343a24f080286973ff63c (1).png" alt="Showcase 1" fill />
                 </div>
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/5cffbd297a7adb1b0fdd446468ea029a83b66f93 (1).png" alt="Showcase 2" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/5cffbd297a7adb1b0fdd446468ea029a83b66f93 (1).png" alt="Showcase 2" fill />
                 </div>
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/5cf7c7c489429f385ba5bb323cfb76f645cd8539 (1).png" alt="Showcase 3" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/5cf7c7c489429f385ba5bb323cfb76f645cd8539 (1).png" alt="Showcase 3" fill />
                 </div>
                 <div className="h-[90%] w-[450px] flex-shrink-0 relative">
-                  <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/7de4bcadf35d4c72527343a24f080286973ff63c (1).png" alt="Showcase 1" fill />
+                  <Image className="object-cover rounded-md p-2.5" src="/assets/startups/7de4bcadf35d4c72527343a24f080286973ff63c (1).png" alt="Showcase 1" fill />
                 </div>
               </div>
               {/* Gradient Overlay for fade effect */}
@@ -119,7 +119,7 @@ export default function ExhibitStartupPage() {
             {/* Card 1 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/Vault-2047/assets/startups/Icon (3).svg" alt="High-Value Prospects" className="w-16 h-16 object-contain" />
+                 <img src="/assets/High-Value-Prospects.svg" alt="High-Value Prospects" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -131,7 +131,7 @@ export default function ExhibitStartupPage() {
             {/* Card 2 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/Vault-2047/assets/startups/fluent-mdl2_party-leader (1).svg" alt="Strategic Lead Generation" className="w-16 h-16 object-contain" />
+                 <img src="/assets/Strategic-Lead-Generation.svg" alt="Strategic Lead Generation" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -143,7 +143,7 @@ export default function ExhibitStartupPage() {
             {/* Card 3 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/Vault-2047/assets/startups/Vector 51 (2).svg" alt="Global & National Visibility" className="w-16 h-16 object-contain" />
+                 <img src="/assets/Global-National-Visibility.svg" alt="Global & National Visibility" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -155,7 +155,7 @@ export default function ExhibitStartupPage() {
             {/* Card 4 */}
             <div className="w-full p-8 bg-gradient-to-b from-stone-950 to-stone-900 outline outline-1 outline-amber-700/50 flex flex-col justify-start items-start gap-6 hover:outline-amber-700 transition-colors">
               <div className="w-full h-40 flex justify-center items-center relative bg-[#B86A2E]/5 rounded-sm">
-                 <img src="/Vault-2047/assets/startups/Layer_1 (14).svg" alt="Ecosystem Integration" className="w-16 h-16 object-contain" />
+                 <img src="/assets/Ecosystem-Integration.svg" alt="Ecosystem Integration" className="w-16 h-16 object-contain" />
               </div>
               <div className="w-full h-px bg-amber-700/30" />
               <div className="flex flex-col justify-start items-start gap-3">
@@ -249,42 +249,42 @@ export default function ExhibitStartupPage() {
             <div className="flex animate-scroll-left w-[200%] h-full hover:[animation-play-state:paused] items-center gap-6">
               {/* First Set */}
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/42ba68c1d6f2fce56f8308136e25c55d9a77861f (1).png" alt="Gallery 1" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/42ba68c1d6f2fce56f8308136e25c55d9a77861f (1).png" alt="Gallery 1" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/0e807f50d348a83669a15d756d343f61a53b4b28 (1).png" alt="Gallery 2" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/0e807f50d348a83669a15d756d343f61a53b4b28 (1).png" alt="Gallery 2" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/77fcc009aae59d39efc16c22a2ba3d704476eca2 (1).png" alt="Gallery 3" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/77fcc009aae59d39efc16c22a2ba3d704476eca2 (1).png" alt="Gallery 3" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/27b13e47136b81a5e77beba96afbb8dff2eadfca (1).png" alt="Gallery 4" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/27b13e47136b81a5e77beba96afbb8dff2eadfca (1).png" alt="Gallery 4" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/9aecde0b0cb2c3d7cf15ecf2cac267a0f259cb3d (1).png" alt="Gallery 5" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/9aecde0b0cb2c3d7cf15ecf2cac267a0f259cb3d (1).png" alt="Gallery 5" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/a715a836e742bdcfaea0ed9de7dd124bb92fa785 (1).png" alt="Gallery 6" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/a715a836e742bdcfaea0ed9de7dd124bb92fa785 (1).png" alt="Gallery 6" fill />
               </div>
 
               {/* Second Set (Duplicate for seamless scroll) */}
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/42ba68c1d6f2fce56f8308136e25c55d9a77861f (1).png" alt="Gallery 1" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/42ba68c1d6f2fce56f8308136e25c55d9a77861f (1).png" alt="Gallery 1" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/0e807f50d348a83669a15d756d343f61a53b4b28 (1).png" alt="Gallery 2" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/0e807f50d348a83669a15d756d343f61a53b4b28 (1).png" alt="Gallery 2" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/77fcc009aae59d39efc16c22a2ba3d704476eca2 (1).png" alt="Gallery 3" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/77fcc009aae59d39efc16c22a2ba3d704476eca2 (1).png" alt="Gallery 3" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/27b13e47136b81a5e77beba96afbb8dff2eadfca (1).png" alt="Gallery 4" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/27b13e47136b81a5e77beba96afbb8dff2eadfca (1).png" alt="Gallery 4" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/9aecde0b0cb2c3d7cf15ecf2cac267a0f259cb3d (1).png" alt="Gallery 5" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/9aecde0b0cb2c3d7cf15ecf2cac267a0f259cb3d (1).png" alt="Gallery 5" fill />
               </div>
               <div className="h-full w-[400px] md:w-[520px] flex-shrink-0 relative">
-                <Image className="object-cover rounded-md p-2.5" src="/Vault-2047/assets/startups/a715a836e742bdcfaea0ed9de7dd124bb92fa785 (1).png" alt="Gallery 6" fill />
+                <Image className="object-cover rounded-md p-2.5" src="/assets/startups/a715a836e742bdcfaea0ed9de7dd124bb92fa785 (1).png" alt="Gallery 6" fill />
               </div>
             </div>
 

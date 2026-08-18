@@ -96,7 +96,7 @@ export default function VisionPage() {
               {/* Card 1 */}
               <div className="self-stretch p-8 bg-transparent outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 flex flex-col justify-start items-start gap-6 overflow-hidden hover:bg-white/5 transition-colors group">
                 <div className="w-20 h-16 relative overflow-hidden flex-shrink-0">
-                  <Image src="/Vault-2047/assets/vision/icon1.svg" alt="Sovereign Cyber-Defense" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
+                  <Image src="/assets/vision/icon1.svg" alt="Sovereign Cyber-Defense" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="self-stretch flex-1 flex flex-col justify-start items-start gap-6">
                   <div className="self-stretch justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">Sovereign Cyber-Defense Infrastructure</div>
@@ -121,7 +121,7 @@ export default function VisionPage() {
               {/* Card 2 */}
               <div className="self-stretch p-8 bg-transparent outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 flex flex-col justify-start items-start gap-6 overflow-hidden hover:bg-white/5 transition-colors group">
                 <div className="w-20 h-16 relative overflow-hidden flex-shrink-0">
-                  <Image src="/Vault-2047/assets/vision/icon2.svg" alt="Securing Critical Infrastructure" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
+                  <Image src="/assets/vision/icon2.svg" alt="Securing Critical Infrastructure" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="self-stretch flex-1 flex flex-col justify-start items-start gap-6">
                   <div className="self-stretch justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">Securing Critical Infrastructure</div>
@@ -146,7 +146,7 @@ export default function VisionPage() {
               {/* Card 3 */}
               <div className="self-stretch p-8 bg-transparent outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 flex flex-col justify-start items-start gap-6 overflow-hidden hover:bg-white/5 transition-colors group">
                 <div className="w-20 h-16 relative overflow-hidden flex-shrink-0">
-                  <Image src="/Vault-2047/assets/vision/icon3.svg" alt="AI-Powered Cybersecurity" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
+                  <Image src="/assets/vision/icon3.svg" alt="AI-Powered Cybersecurity" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="self-stretch flex-1 flex flex-col justify-start items-start gap-6">
                   <div className="self-stretch justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">AI-Powered <br/>Cybersecurity</div>
@@ -171,7 +171,7 @@ export default function VisionPage() {
               {/* Card 4 */}
               <div className="self-stretch p-8 bg-transparent outline outline-1 outline-offset-[-0.50px] outline-amber-700/30 flex flex-col justify-start items-start gap-6 overflow-hidden hover:bg-white/5 transition-colors group">
                 <div className="w-20 h-16 relative overflow-hidden flex-shrink-0">
-                  <Image src="/Vault-2047/assets/vision/icon4.svg" alt="Cyber Talent & Innovation" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
+                  <Image src="/assets/vision/icon4.svg" alt="Cyber Talent & Innovation" fill className="object-contain object-left group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="self-stretch flex-1 flex flex-col justify-start items-start gap-6">
                   <div className="self-stretch justify-start text-white text-xl font-semibold font-['IBM_Plex_Sans']">Cyber Talent &amp; <br/>Innovation Ecosystem</div>
@@ -222,7 +222,7 @@ export default function VisionPage() {
 
               {/* 01 Block (Government & Policy Bodies) */}
               <div className="w-full lg:w-80 min-h-[384px] p-10 bg-gradient-to-b from-black/0 to-black outline outline-1 outline-offset-[-1px] outline-amber-700/20 flex flex-col justify-end items-start gap-4 overflow-hidden relative group">
-                <Image src="/Vault-2047/assets/vision/frame_bg1.png" alt="Government" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
+                <Image src="/assets/vision/frame_bg1.png" alt="Government" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
                 <div className="self-stretch opacity-50 flex justify-between items-center relative z-10">
                   <div className="justify-start text-neutral-400 text-base font-semibold font-['IBM_Plex_Sans'] tracking-[3.20px]">01</div>
                 </div>
@@ -235,7 +235,7 @@ export default function VisionPage() {
 
               {/* 02 Block (Defense & National Security Agencies) */}
               <div className="w-full lg:w-96 min-h-[384px] p-10 bg-gradient-to-b from-black/0 to-black outline outline-1 outline-offset-[-1px] outline-amber-700/20 flex flex-col justify-end items-start gap-4 overflow-hidden relative group">
-                <Image src="/Vault-2047/assets/vision/frame_bg2.png" alt="Defense" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
+                <Image src="/assets/vision/frame_bg2.png" alt="Defense" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
                 <div className="self-stretch opacity-50 flex justify-between items-center relative z-10">
                   <div className="justify-start text-neutral-400 text-base font-semibold font-['IBM_Plex_Sans'] tracking-[3.20px]">02</div>
                 </div>
@@ -253,7 +253,7 @@ export default function VisionPage() {
               
               {/* 03 Block (Industry & Technology Leaders) */}
               <div className="flex-1 min-h-[384px] p-10 bg-gradient-to-b from-black/0 to-black outline outline-1 outline-offset-[-1px] outline-amber-700/20 flex flex-col justify-end items-start gap-4 overflow-hidden relative group">
-                <Image src="/Vault-2047/assets/vision/frame_bg3.png" alt="Industry" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
+                <Image src="/assets/vision/frame_bg3.png" alt="Industry" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
                 <div className="self-stretch opacity-50 flex justify-between items-center relative z-10">
                   <div className="justify-start text-neutral-400 text-base font-semibold font-['IBM_Plex_Sans'] tracking-[3.20px]">03</div>
                 </div>
@@ -266,7 +266,7 @@ export default function VisionPage() {
 
               {/* 04 Block (Global Alliances) */}
               <div className="w-full lg:w-[739px] min-h-[384px] p-10 bg-gradient-to-b from-black/0 to-black outline outline-1 outline-offset-[-1px] outline-amber-700/20 flex flex-col justify-end items-start gap-4 overflow-hidden relative group">
-                <Image src="/Vault-2047/assets/vision/frame_bg4.png" alt="Global Alliances" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
+                <Image src="/assets/vision/frame_bg4.png" alt="Global Alliances" fill className="object-cover absolute inset-0 z-0 opacity-40 group-hover:opacity-60 group-hover:scale-105 transition-all duration-500" />
                 <div className="self-stretch opacity-50 flex justify-between items-center relative z-10">
                   <div className="justify-start text-neutral-400 text-base font-semibold font-['IBM_Plex_Sans'] tracking-[3.20px]">04</div>
                 </div>
@@ -314,32 +314,32 @@ export default function VisionPage() {
                 {/* First Set of Images */}
                 <div className="flex gap-6 shrink-0 animate-slide">
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel1.jpg" alt="Carousel 1" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel1.jpg" alt="Carousel 1" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel2.jpg" alt="Carousel 2" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel2.jpg" alt="Carousel 2" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel3.jpg" alt="Carousel 3" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel3.jpg" alt="Carousel 3" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel4.jpg" alt="Carousel 4" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel4.jpg" alt="Carousel 4" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                 </div>
 
                 {/* Second Set (Duplicate) for Seamless Looping */}
                 <div className="flex gap-6 shrink-0 animate-slide">
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel1.jpg" alt="Carousel 1" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel1.jpg" alt="Carousel 1" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel2.jpg" alt="Carousel 2" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel2.jpg" alt="Carousel 2" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel3.jpg" alt="Carousel 3" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel3.jpg" alt="Carousel 3" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                   <div className="w-[300px] md:w-[400px] h-[280px] md:h-[370px] flex-shrink-0 relative group cursor-pointer">
-                    <Image src="/Vault-2047/assets/vision/carousel4.jpg" alt="Carousel 4" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
+                    <Image src="/assets/vision/carousel4.jpg" alt="Carousel 4" fill className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-sm" />
                   </div>
                 </div>
 

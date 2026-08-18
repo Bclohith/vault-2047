@@ -44,7 +44,7 @@ export default function SnapshotPage() {
             {/* Dates */}
             <div className="flex justify-start items-center gap-6">
               <div className="w-12 h-12 p-3 bg-white/10 flex justify-center items-center gap-2.5 overflow-hidden">
-                <Image src="/Vault-2047/assets/calendar-icon.svg" alt="Calendar Icon" width={24} height={28} className="w-full h-full object-contain" />
+                <Image src="/assets/calendar-icon.svg" alt="Calendar Icon" width={24} height={28} className="w-full h-full object-contain" />
               </div>
               <div className="inline-flex flex-col justify-start items-start">
                 <div className="text-center justify-start text-neutral-400 text-lg font-semibold font-['IBM_Plex_Sans']">Dates</div>
@@ -55,7 +55,7 @@ export default function SnapshotPage() {
             {/* Venue */}
             <div className="flex justify-start items-center gap-6">
               <div className="w-12 h-12 p-3 bg-white/10 flex justify-center items-center gap-2.5 overflow-hidden">
-                <Image src="/Vault-2047/assets/venue-icon.svg" alt="Venue Icon" width={24} height={24} className="w-full h-full object-contain" />
+                <Image src="/assets/venue-icon.svg" alt="Venue Icon" width={24} height={24} className="w-full h-full object-contain" />
               </div>
               <div className="inline-flex flex-col justify-start items-start">
                 <div className="text-center justify-start text-neutral-400 text-lg font-semibold font-['IBM_Plex_Sans']">Venue</div>
@@ -83,15 +83,15 @@ export default function SnapshotPage() {
               <div className="flex flex-wrap justify-start items-center gap-3.5 w-full lg:w-auto">
                 <div className="flex-1 min-w-[150px] md:w-56 p-3 bg-white/10 outline outline-1 outline-offset-[-1px] outline-white/40 flex justify-between items-center gap-2.5 cursor-pointer">
                   <div className="flex-1 justify-start text-white text-base font-medium font-['IBM_Plex_Sans']">Session Type</div>
-                  <Image src="/Vault-2047/assets/caret-down.svg" alt="Dropdown" width={24} height={24} />
+                  <Image src="/assets/caret-down.svg" alt="Dropdown" width={24} height={24} />
                 </div>
                 <div className="flex-1 min-w-[150px] md:w-56 p-3 bg-white/10 outline outline-1 outline-offset-[-1px] outline-white/40 flex justify-between items-center gap-2.5 cursor-pointer">
                   <div className="flex-1 justify-start text-white text-base font-medium font-['IBM_Plex_Sans']">All Stages</div>
-                  <Image src="/Vault-2047/assets/caret-down.svg" alt="Dropdown" width={24} height={24} />
+                  <Image src="/assets/caret-down.svg" alt="Dropdown" width={24} height={24} />
                 </div>
                 <div className="flex-1 min-w-[150px] md:w-56 p-3 bg-white/10 outline outline-1 outline-offset-[-1px] outline-white/40 flex justify-between items-center gap-2.5 cursor-pointer">
                   <div className="flex-1 justify-start text-white text-base font-medium font-['IBM_Plex_Sans']">Topics</div>
-                  <Image src="/Vault-2047/assets/caret-down.svg" alt="Dropdown" width={24} height={24} />
+                  <Image src="/assets/caret-down.svg" alt="Dropdown" width={24} height={24} />
                 </div>
                 <div className="h-12 px-8 p-3 bg-teal-800 flex justify-center items-center gap-2.5 cursor-pointer hover:bg-teal-700 transition-colors">
                   <div className="justify-start text-white text-base font-medium font-['Lufga']">Clear</div>
@@ -120,7 +120,7 @@ export default function SnapshotPage() {
                           <div className="flex-1 flex flex-wrap justify-start items-center gap-7">
                             {/* Time */}
                             <div className="flex justify-start items-center gap-2">
-                              <Image src="/Vault-2047/assets/time-icon.svg" alt="Time" width={20} height={20} />
+                              <Image src="/assets/time-icon.svg" alt="Time" width={20} height={20} />
                               <div className="text-white text-sm font-normal font-['IBM_Plex_Sans'] whitespace-nowrap">09:00 AM - 10:00 AM</div>
                             </div>
                             {/* Tags */}
@@ -129,7 +129,7 @@ export default function SnapshotPage() {
                                 <div className="text-center justify-start text-white text-sm md:text-base font-medium font-['IBM_Plex_Sans'] whitespace-nowrap">Panel Discussion</div>
                               </div>
                               <div className="flex justify-start items-center gap-2">
-                                <Image src="/Vault-2047/assets/location-icon.svg" alt="Location" width={20} height={20} />
+                                <Image src="/assets/location-icon.svg" alt="Location" width={20} height={20} />
                                 <div className="text-center justify-start text-neutral-500 text-sm md:text-base font-medium font-['IBM_Plex_Sans']">Grand Ballroom</div>
                               </div>
                             </div>
@@ -137,7 +137,7 @@ export default function SnapshotPage() {
                           {/* View Details */}
                           <div className="flex justify-start items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
                             <div className="text-stone-300 text-sm font-normal font-['IBM_Plex_Sans'] whitespace-nowrap">View Details</div>
-                            <Image src="/Vault-2047/assets/caret-right.svg" alt="View" width={16} height={16} />
+                            <Image src="/assets/caret-right.svg" alt="View" width={16} height={16} />
                           </div>
                         </div>
                         
@@ -148,7 +148,7 @@ export default function SnapshotPage() {
                         
                         {/* Speaker */}
                         <div className="flex justify-start items-center gap-3">
-                          <Image src="/Vault-2047/assets/user-icon.svg" alt="Speaker" width={18} height={18} />
+                          <Image src="/assets/user-icon.svg" alt="Speaker" width={18} height={18} />
                           <div className="text-white text-xs md:text-sm font-normal font-['IBM_Plex_Sans'] uppercase tracking-wide">
                             Hon. Minister of IT & Electronics
                           </div>

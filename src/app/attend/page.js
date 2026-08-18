@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import SpeakersSection from "@/components/SpeakersSection";
+import Footer from "@/components/Footer";
+import CTASection from "@/components/CTASection";
 
 export const metadata = {
   title: "Attend - Vault 2047",
@@ -42,7 +44,7 @@ export default function AttendPage() {
           {/* Background Image & Overlay */}
           <div className="absolute inset-0 z-0 bg-black">
             <Image 
-              src="/Vault-2047/assets/attend-bg.png"
+              src="/assets/attend-bg.png"
               alt="Attend Background"
               fill
               className="object-cover opacity-60"
@@ -105,7 +107,7 @@ export default function AttendPage() {
             <div className="w-full lg:w-[551px] aspect-video lg:aspect-[551/370] relative flex-shrink-0 border border-white/5 shadow-2xl">
               <Image 
                 className="object-cover" 
-                src="/Vault-2047/assets/vision-map.png" 
+                src="/assets/vision-map.png" 
                 alt="Vision Map" 
                 fill 
               />
@@ -134,12 +136,12 @@ export default function AttendPage() {
             <div className="w-full relative">
               <div className="w-full h-[600px] md:h-[700px] flex flex-col justify-start items-start gap-8 md:gap-11 overflow-y-auto hide-scrollbar pb-32 pt-2 pr-2">
                 {[
-                  { id: "01", title: "Establishing India as a Global Cyber Resilience Leader", desc: "Position India at the forefront of cyber defense, digital trust, and global cyber collaboration.", img: "/Vault-2047/assets/feature-01.png" },
-                  { id: "02", title: "Enabling Policy & Strategic Dialogue", desc: "Facilitate high-impact discussions through platforms like the Mumbai Accord, shaping cyber governance and national security frameworks.", img: "/Vault-2047/assets/feature-02.png" },
-                  { id: "03", title: "Accelerating Innovation & Investment", desc: "Connect startups, enterprises, and investors to drive cybersecurity innovation, adoption, and scale.", img: "/Vault-2047/assets/feature-03.jpg" },
-                  { id: "04", title: "Securing Critical Infrastructure", desc: "Address real-world challenges across BFSI, telecom, energy, healthcare, and public infrastructure.", img: "/Vault-2047/assets/feature-04.png" },
-                  { id: "05", title: "Strengthening Public–Private Collaboration", desc: "Bring together government bodies, enterprises, and global stakeholders to enable coordinated cyber strategies.", img: "/Vault-2047/assets/feature-05.png" },
-                  { id: "06", title: "Building a Future-Ready Cyber Workforce", desc: "Advance talent development, skilling, and ecosystem readiness to address global cyber talent gaps.", img: "/Vault-2047/assets/feature-06.jpg" }
+                  { id: "01", title: "Establishing India as a Global Cyber Resilience Leader", desc: "Position India at the forefront of cyber defense, digital trust, and global cyber collaboration.", img: "/assets/feature-01.png" },
+                  { id: "02", title: "Enabling Policy & Strategic Dialogue", desc: "Facilitate high-impact discussions through platforms like the Mumbai Accord, shaping cyber governance and national security frameworks.", img: "/assets/feature-02.png" },
+                  { id: "03", title: "Accelerating Innovation & Investment", desc: "Connect startups, enterprises, and investors to drive cybersecurity innovation, adoption, and scale.", img: "/assets/feature-03.jpg" },
+                  { id: "04", title: "Securing Critical Infrastructure", desc: "Address real-world challenges across BFSI, telecom, energy, healthcare, and public infrastructure.", img: "/assets/feature-04.png" },
+                  { id: "05", title: "Strengthening Public–Private Collaboration", desc: "Bring together government bodies, enterprises, and global stakeholders to enable coordinated cyber strategies.", img: "/assets/feature-05.png" },
+                  { id: "06", title: "Building a Future-Ready Cyber Workforce", desc: "Advance talent development, skilling, and ecosystem readiness to address global cyber talent gaps.", img: "/assets/feature-06.jpg" }
                 ].map((item, index) => (
                   <div key={index} className="w-full p-4 md:p-8 bg-gradient-to-r from-transparent via-[#B86A2E]/10 to-[#B86A2E]/70 outline outline-1 outline-[#B86A2E]/40 flex flex-col lg:flex-row justify-start items-stretch gap-8 group hover:outline-[#B86A2E] transition-all bg-[#171717]">
                     
@@ -244,74 +246,18 @@ export default function AttendPage() {
         {/* Speakers Section - Using Shared Component (Full Width) */}
         <SpeakersSection />
 
-        {/* Final CTA Section */}
-        <div className="w-full relative min-h-[500px] md:h-[710px] bg-[#040b0e] flex justify-center items-center px-4 md:px-20 py-10 md:py-10 lg:py-10">
-          
-          {/* Wrapper for Card and Outside Decorative Elements */}
-          <div className="w-full max-w-[1200px] relative">
-            
-            {/* Top Left Bracket */}
-            <div className="hidden lg:block absolute -left-8 -top-8 w-24 h-24 border-t-[24px] border-l-[24px] border-[#B86A2E] z-0" />
-            
-            {/* Bottom Right Bracket */}
-            <div className="hidden lg:block absolute -right-8 -bottom-8 w-24 h-24 border-b-[24px] border-r-[24px] border-[#B86A2E] z-0" />
-
-            {/* Main CTA Card */}
-            <div className="w-full relative z-10 bg-[#171717] flex flex-col justify-center items-center overflow-hidden border border-[#0D6665]/20 shadow-2xl">
-              
-              {/* Image constrained inside the card */}
-              <div className="absolute inset-0 z-0">
-                <Image 
-                  src="/Vault-2047/assets/attend-cta-bg.jpg"
-                  alt="CTA Background"
-                  fill
-                  className="object-cover opacity-30 mix-blend-screen grayscale"
-                />
-                <div className="absolute inset-0 bg-gradient-to-b from-[#040b0e]/80 via-[#0D6665]/50 to-[#0D6665]/90" />
-              </div>
-
-              {/* Content Box */}
-              <div className="w-full px-8 py-16 md:py-24 relative z-10 flex flex-col justify-center items-center gap-11">
-                
-                <div className="flex flex-col justify-start items-center gap-6">
-                  
-                  {/* Join Us Badge */}
-                  <div className="inline-flex justify-center items-center gap-4">
-                    <div className="w-8 md:w-11 h-0 border-t-2 border-[#0D6665]" />
-                    <div className="text-white text-base md:text-[15px] font-bold uppercase tracking-[2px]" style={{ fontFamily: "var(--font-ibm)" }}>
-                      Join us
-                    </div>
-                    <div className="w-8 md:w-11 h-0 border-t-2 border-[#0D6665]" />
-                  </div>
-
-                  {/* Headlines */}
-                  <div className="text-center">
-                    <div className="text-3xl md:text-4xl lg:text-[44px] font-bold leading-tight" style={{ fontFamily: "var(--font-orbitron)" }}>
-                      <span className="text-white">Ready to be Part of India&apos;s <br className="hidden md:block" /></span>
-                      <span className="text-[#B86A2E]">Cyber-Resilience</span>
-                      <span className="text-white"> Movement?</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-center text-white/90 text-sm md:text-base font-normal max-w-[650px] leading-relaxed" style={{ fontFamily: "var(--font-ibm)" }}>
-                    Join Vault2047 and connect with the leaders, innovators, and institutions shaping the future of digital security.
-                  </div>
-                </div>
-
-                {/* CTA Button */}
-                <button className="w-full sm:w-[220px] h-[52px] bg-[#B86A2E] text-white text-[15px] font-semibold hover:bg-[#9a5624] transition-colors shadow-lg" style={{ fontFamily: "var(--font-ibm)" }}>
-                  Enquire Now
-                </button>
-                
-              </div>
-            </div>
-
-          </div>
-        </div>
+        <CTASection 
+          badgeText="Join us"
+          titlePrefix={<>Ready to be Part of India&apos;s <br className="hidden md:block" /></>}
+          titleHighlight="Cyber-Resilience Movement?"
+          description="Join Vault2047 and connect with the leaders, innovators, and institutions shaping the future of digital security."
+          buttonText="Enquire Now"
+          buttonLink="#"
+          backgroundImage="/assets/attend-cta-bg.jpg"
+        />
 
       </main>
-
+      <Footer />
     </div>
   );
 }
-

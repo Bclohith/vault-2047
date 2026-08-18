@@ -52,10 +52,10 @@ export default function AgendaPage() {
               
               <div className="w-full flex flex-col sm:flex-row justify-start items-stretch gap-4 mt-4">
                 <div className="flex-1 relative aspect-[3/4] md:h-[352px] w-full">
-                  <Image src="/Vault-2047/assets/agenda/daaf07998d851d6bf17265083c9943f8bb954d1a.jpg" alt="Agenda Image 1" fill className="object-cover" />
+                  <Image src="/assets/agenda/daaf07998d851d6bf17265083c9943f8bb954d1a.jpg" alt="Agenda Image 1" fill className="object-cover" />
                 </div>
                 <div className="flex-1 relative aspect-[3/4] md:h-[352px] w-full">
-                  <Image src="/Vault-2047/assets/agenda/92c09e3446e8bd7a9a36808aa4cf45b6b7e1ccd3.jpg" alt="Agenda Image 2" fill className="object-cover" />
+                  <Image src="/assets/agenda/92c09e3446e8bd7a9a36808aa4cf45b6b7e1ccd3.jpg" alt="Agenda Image 2" fill className="object-cover" />
                 </div>
               </div>
             </div>
@@ -64,12 +64,12 @@ export default function AgendaPage() {
             <div className="flex-1 flex flex-col justify-start items-start gap-6">
               <div className="w-full flex flex-col sm:flex-row justify-start items-stretch gap-6">
                 <div className="flex-1 relative aspect-[3/4] md:h-[352px] w-full">
-                  <Image src="/Vault-2047/assets/agenda/8d7be89ce2da469e8137543bf9dcb17046b145c1.jpg" alt="Agenda Image 3" fill className="object-cover" />
+                  <Image src="/assets/agenda/8d7be89ce2da469e8137543bf9dcb17046b145c1.jpg" alt="Agenda Image 3" fill className="object-cover" />
                 </div>
                 <div className="flex-1 relative aspect-[3/4] md:h-[352px] w-full bg-black/60 group overflow-hidden flex items-center justify-center cursor-pointer">
-                  <Image src="/Vault-2047/assets/agenda/c195aa479288b58dbb4ab6b8b19d7c2ad83abc0a.jpg" alt="Agenda Image 4" fill className="object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" />
+                  <Image src="/assets/agenda/c195aa479288b58dbb4ab6b8b19d7c2ad83abc0a.jpg" alt="Agenda Image 4" fill className="object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" />
                   <div className="w-20 h-20 outline outline-[1.71px] outline-offset-[-1.71px] outline-[#B86A2E] bg-black/50 backdrop-blur-sm flex justify-center items-center z-10 hover:bg-[#B86A2E]/20 transition-colors">
-                     <Image src="/Vault-2047/assets/agenda/mdi_play (3).svg" alt="Play Video" width={40} height={40} />
+                     <Image src="/assets/agenda/mdi_play (3).svg" alt="Play Video" width={40} height={40} />
                   </div>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function AgendaPage() {
 
         {/* Theme Section */}
         <div className="w-full px-6 md:px-28 py-24 bg-black flex flex-col justify-start items-center gap-11 overflow-hidden relative">
-          <Image src="/Vault-2047/assets/agenda/Component 8.png" alt="Theme BG" fill className="object-cover opacity-20" />
+          <Image src="/assets/agenda/Component 8.png" alt="Theme BG" fill className="object-cover opacity-20" />
           
           <div className="relative z-10 w-full max-w-[1200px] flex flex-col justify-start items-center gap-5 text-center">
             <div className="text-white text-3xl md:text-4xl font-bold" style={{ fontFamily: "var(--font-orbitron)" }}>
@@ -184,29 +184,29 @@ export default function AgendaPage() {
             
             {/* Row 1 */}
             <div className="w-full aspect-[2/1] md:aspect-auto md:h-56 p-8 bg-black/60 outline outline-1 outline-neutral-700 backdrop-blur-md flex justify-center items-center group hover:bg-[#0D6665]/20 transition-all cursor-pointer relative overflow-hidden">
-               <Image src="/Vault-2047/assets/agenda/2461f32012f270ccf6ecea8ff823353612b975ec.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
+               <Image src="/assets/agenda/2461f32012f270ccf6ecea8ff823353612b975ec.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
                <div className="text-white text-xl md:text-2xl font-bold text-center relative z-10" style={{ fontFamily: "var(--font-orbitron)" }}>Cyber-Defence &amp; Critical Infrastructure</div>
             </div>
             <div className="w-full aspect-[2/1] md:aspect-auto md:h-56 p-8 bg-black/60 outline outline-1 outline-neutral-700 backdrop-blur-md flex justify-center items-center group hover:bg-[#0D6665]/20 transition-all cursor-pointer relative overflow-hidden">
-               <Image src="/Vault-2047/assets/agenda/Component 5.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
+               <Image src="/assets/agenda/Component 5.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
                <div className="text-white text-xl md:text-2xl font-bold text-center relative z-10" style={{ fontFamily: "var(--font-orbitron)" }}>AI–Cyber Nexus</div>
             </div>
             <div className="w-full aspect-[2/1] md:aspect-auto md:h-56 p-8 bg-black/60 outline outline-1 outline-neutral-700 backdrop-blur-md flex justify-center items-center group hover:bg-[#0D6665]/20 transition-all cursor-pointer relative overflow-hidden">
-               <Image src="/Vault-2047/assets/agenda/Component 6.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
+               <Image src="/assets/agenda/Component 6.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
                <div className="text-white text-xl md:text-2xl font-bold text-center relative z-10" style={{ fontFamily: "var(--font-orbitron)" }}>Emerging Threat Landscape</div>
             </div>
             
             {/* Row 2 */}
             <div className="w-full aspect-[2/1] md:aspect-auto md:h-56 p-8 bg-black/60 outline outline-1 outline-neutral-700 backdrop-blur-md flex justify-center items-center group hover:bg-[#0D6665]/20 transition-all cursor-pointer relative overflow-hidden">
-               <Image src="/Vault-2047/assets/agenda/Component 10.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
+               <Image src="/assets/agenda/Component 10.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
                <div className="text-white text-xl md:text-2xl font-bold text-center relative z-10" style={{ fontFamily: "var(--font-orbitron)" }}>IT / OT / IoT Security</div>
             </div>
             <div className="w-full aspect-[2/1] md:aspect-auto md:h-56 p-8 bg-black/60 outline outline-1 outline-neutral-700 backdrop-blur-md flex justify-center items-center group hover:bg-[#0D6665]/20 transition-all cursor-pointer relative overflow-hidden">
-               <Image src="/Vault-2047/assets/agenda/Component 7.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
+               <Image src="/assets/agenda/Component 7.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
                <div className="text-white text-xl md:text-2xl font-bold text-center relative z-10" style={{ fontFamily: "var(--font-orbitron)" }}>Cyber Talent &amp; Workforce Development</div>
             </div>
             <div className="w-full aspect-[2/1] md:aspect-auto md:h-56 p-8 bg-black/60 outline outline-1 outline-neutral-700 backdrop-blur-md flex justify-center items-center group hover:bg-[#0D6665]/20 transition-all cursor-pointer relative overflow-hidden">
-               <Image src="/Vault-2047/assets/agenda/Component 9.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
+               <Image src="/assets/agenda/Component 9.png" alt="Icon" fill className="object-cover opacity-30 group-hover:scale-110 transition-transform duration-700" />
                <div className="text-white text-xl md:text-2xl font-bold text-center relative z-10" style={{ fontFamily: "var(--font-orbitron)" }}>Digital Trust &amp; Citizen Safety</div>
             </div>
           </div>
@@ -291,7 +291,7 @@ export default function AgendaPage() {
             </div>
           </div>
           <div className="flex-1 relative min-h-[400px]">
-            <Image src="/Vault-2047/assets/agenda/b6b6eaee5679ffc666feaf249fc97e1e822945db.jpg" alt="Outcomes Image" fill className="object-cover" />
+            <Image src="/assets/agenda/b6b6eaee5679ffc666feaf249fc97e1e822945db.jpg" alt="Outcomes Image" fill className="object-cover" />
           </div>
         </div>
 
@@ -331,13 +331,13 @@ export default function AgendaPage() {
             
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 h-auto md:h-64">
               <div className="relative aspect-video md:aspect-auto w-full h-full border border-zinc-600">
-                <Image src="/Vault-2047/assets/agenda/a329a57696e003dd6267d1651a62b8fa23be41ed.jpg" alt="Shape Agenda 1" fill className="object-cover" />
+                <Image src="/assets/agenda/a329a57696e003dd6267d1651a62b8fa23be41ed.jpg" alt="Shape Agenda 1" fill className="object-cover" />
               </div>
               <div className="relative aspect-video md:aspect-auto w-full h-full border border-zinc-600">
-                <Image src="/Vault-2047/assets/agenda/7d40824b145504b3bcad7e059ad957f4ee5d7413.jpg" alt="Shape Agenda 2" fill className="object-cover" />
+                <Image src="/assets/agenda/7d40824b145504b3bcad7e059ad957f4ee5d7413.jpg" alt="Shape Agenda 2" fill className="object-cover" />
               </div>
               <div className="relative aspect-video md:aspect-auto w-full h-full border border-zinc-600 overflow-hidden">
-                <Image src="/Vault-2047/assets/agenda/162430f1e0981178c83098af037985ce7b4af0d8.jpg" alt="Shape Agenda 3" fill className="object-cover" />
+                <Image src="/assets/agenda/162430f1e0981178c83098af037985ce7b4af0d8.jpg" alt="Shape Agenda 3" fill className="object-cover" />
               </div>
             </div>
           </div>

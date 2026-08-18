@@ -70,7 +70,7 @@ export default function BenefitsCarousel({
           aria-label="Previous slide"
           className={`hidden lg:flex w-16 h-24 backdrop-blur-sm justify-center items-center transition-colors shrink-0 z-10 group cursor-pointer ${buttonStyle}`}
         >
-          <img src="/Vault-2047/assets/arrow-icon.svg" className="w-8 h-8 rotate-180 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity" alt="" aria-hidden="true" />
+          <img src="/assets/arrow-icon.svg" className="w-8 h-8 rotate-180 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity" alt="" aria-hidden="true" />
         </button>
         
         {/* Carousel Container */}
@@ -110,7 +110,7 @@ export default function BenefitsCarousel({
           aria-label="Next slide"
           className={`hidden lg:flex w-16 h-24 backdrop-blur-sm justify-center items-center transition-colors shrink-0 z-10 group cursor-pointer ${buttonStyle}`}
         >
-          <img src="/Vault-2047/assets/arrow-icon.svg" className="w-8 h-8 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity" alt="" aria-hidden="true" />
+          <img src="/assets/arrow-icon.svg" className="w-8 h-8 brightness-200 opacity-70 group-hover:opacity-100 transition-opacity" alt="" aria-hidden="true" />
         </button>
         
       </div>

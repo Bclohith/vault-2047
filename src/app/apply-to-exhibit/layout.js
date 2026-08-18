@@ -4,13 +4,13 @@ export const metadata = {
   openGraph: {
     title: "Apply to Exhibit - Vault 2047",
     description: "Apply to exhibit at Vault 2047 and showcase your cyber capabilities.",
-    images: ['/Vault-2047/assets/og-image.jpg'],
+    images: ['/assets/og-image.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Apply to Exhibit - Vault 2047",
     description: "Apply to exhibit at Vault 2047 and showcase your cyber capabilities.",
-    images: ['/Vault-2047/assets/og-image.jpg'],
+    images: ['/assets/og-image.jpg'],
   },
 };
 

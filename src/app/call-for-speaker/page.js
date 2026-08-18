@@ -55,10 +55,10 @@ export default function CallForSpeakerPage() {
               {/* 2 Bottom Images */}
               <div className="w-full flex-1 flex flex-row justify-start items-stretch gap-4 lg:gap-6 min-h-[200px] sm:min-h-[250px] lg:min-h-[300px]">
                 <div className="flex-1 relative overflow-hidden">
-                  <Image src="/Vault-2047/assets/call-for-speaker/voices-1.png" alt="Speaker 1" fill className="object-cover" />
+                  <Image src="/assets/call-for-speaker/voices-1.png" alt="Speaker 1" fill className="object-cover" />
                 </div>
                 <div className="flex-1 relative overflow-hidden">
-                  <Image src="/Vault-2047/assets/call-for-speaker/voices-2.png" alt="Speaker 2" fill className="object-cover" />
+                  <Image src="/assets/call-for-speaker/voices-2.png" alt="Speaker 2" fill className="object-cover" />
                 </div>
               </div>
             </div>
@@ -69,17 +69,17 @@ export default function CallForSpeakerPage() {
               {/* Top Row: 2 Images */}
               <div className="w-full h-[180px] sm:h-[220px] lg:h-[240px] flex flex-row justify-start items-stretch gap-4 lg:gap-6">
                 <div className="w-[40%] relative overflow-hidden">
-                  <Image src="/Vault-2047/assets/call-for-speaker/voices-3.png" alt="Speaker 3" fill className="object-cover" />
+                  <Image src="/assets/call-for-speaker/voices-3.png" alt="Speaker 3" fill className="object-cover" />
                 </div>
                 <div className="w-[60%] relative overflow-hidden">
-                  <Image src="/Vault-2047/assets/call-for-speaker/voices-4.png" alt="Speaker 4" fill className="object-cover" />
+                  <Image src="/assets/call-for-speaker/voices-4.png" alt="Speaker 4" fill className="object-cover" />
                 </div>
               </div>
               
               {/* Bottom Row: Image + Text Box */}
               <div className="w-full flex-1 flex flex-col sm:flex-row justify-start items-stretch gap-4 lg:gap-6 min-h-[250px] lg:min-h-[300px]">
                 <div className="w-full sm:w-[40%] h-[200px] sm:h-auto relative overflow-hidden">
-                  <Image src="/Vault-2047/assets/call-for-speaker/voices-5.png" alt="Speaker 5" fill className="object-cover" />
+                  <Image src="/assets/call-for-speaker/voices-5.png" alt="Speaker 5" fill className="object-cover" />
                 </div>
                 <div className="w-full sm:w-[60%] h-full p-6 md:p-8 lg:p-12 bg-amber-700/30 flex justify-center items-center overflow-hidden">
                   <p className="w-full opacity-80 text-white text-sm md:text-base font-normal font-['IBM_Plex_Sans'] leading-relaxed">
@@ -105,7 +105,7 @@ export default function CallForSpeakerPage() {
             {/* Card 1 */}
             <div className="w-full h-auto min-h-[400px] outline outline-1 outline-amber-700/30 flex flex-col justify-start items-stretch overflow-hidden bg-black/20 hover:bg-black/40 transition-colors">
               <div className="w-full h-[250px] relative">
-                <Image src="/Vault-2047/assets/call-for-speaker/why-speak-1.jpg" alt="Global Influence" fill className="object-cover" />
+                <Image src="/assets/call-for-speaker/why-speak-1.jpg" alt="Global Influence" fill className="object-cover" />
               </div>
               <div className="w-full flex-1 p-6 lg:p-8 flex flex-col justify-start items-start gap-4">
                 <h3 className="w-full text-white text-lg lg:text-xl font-semibold font-['IBM_Plex_Sans']">Global Influence</h3>
@@ -118,7 +118,7 @@ export default function CallForSpeakerPage() {
             {/* Card 2 */}
             <div className="w-full h-auto min-h-[400px] outline outline-1 outline-amber-700/30 flex flex-col justify-start items-stretch overflow-hidden bg-black/20 hover:bg-black/40 transition-colors">
               <div className="w-full h-[250px] relative">
-                <Image src="/Vault-2047/assets/call-for-speaker/why-speak-2.jpg" alt="Strategic Access" fill className="object-cover" />
+                <Image src="/assets/call-for-speaker/why-speak-2.jpg" alt="Strategic Access" fill className="object-cover" />
               </div>
               <div className="w-full flex-1 p-6 lg:p-8 flex flex-col justify-start items-start gap-4">
                 <h3 className="w-full text-white text-lg lg:text-xl font-semibold font-['IBM_Plex_Sans']">Strategic Access</h3>
@@ -131,7 +131,7 @@ export default function CallForSpeakerPage() {
             {/* Card 3 */}
             <div className="w-full h-auto min-h-[400px] outline outline-1 outline-amber-700/30 flex flex-col justify-start items-stretch overflow-hidden bg-black/20 hover:bg-black/40 transition-colors">
               <div className="w-full h-[250px] relative">
-                <Image src="/Vault-2047/assets/call-for-speaker/why-speak-3.jpg" alt="Drive Real Impact" fill className="object-cover" />
+                <Image src="/assets/call-for-speaker/why-speak-3.jpg" alt="Drive Real Impact" fill className="object-cover" />
               </div>
               <div className="w-full flex-1 p-6 lg:p-8 flex flex-col justify-start items-start gap-4">
                 <h3 className="w-full text-white text-lg lg:text-xl font-semibold font-['IBM_Plex_Sans']">Drive Real Impact</h3>
@@ -161,10 +161,10 @@ export default function CallForSpeakerPage() {
               
               {/* Corner Decorations */}
               <div className="absolute -left-4 -top-4 md:-left-8 md:-top-8 w-20 h-24 md:w-28 md:h-32 pointer-events-none z-0">
-                <Image src="/Vault-2047/assets/call-for-speaker/cfs-vector-1.svg" alt="Decoration" fill className="object-contain" />
+                <Image src="/assets/call-for-speaker/cfs-vector-1.svg" alt="Decoration" fill className="object-contain" />
               </div>
               <div className="absolute -right-4 -bottom-4 md:-right-8 md:-bottom-8 w-24 h-24 md:w-32 md:h-36 pointer-events-none z-0">
-                <Image src="/Vault-2047/assets/call-for-speaker/cfs-vector-2.svg" alt="Decoration" fill className="object-contain" />
+                <Image src="/assets/call-for-speaker/cfs-vector-2.svg" alt="Decoration" fill className="object-contain" />
               </div>
 
               {/* Solid Form Box */}

@@ -23,7 +23,7 @@ export const metadata = {
     siteName: 'Vault 2047',
     images: [
       {
-        url: '/Vault-2047/assets/og-image.jpg',
+        url: '/assets/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Vault 2047 - Building the World\'s Cyber-Resilience',
@@ -36,7 +36,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Building the World's Cyber-Resilience - Vault 2047",
     description: "MUMBAI, INDIA • SEPTEMBER 2026",
-    images: ['/Vault-2047/assets/og-image.jpg'],
+    images: ['/assets/og-image.jpg'],
   },
 };
 

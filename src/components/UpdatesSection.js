@@ -8,7 +8,7 @@ export default function UpdatesSection() {
       date: "February 24, 2026",
       title: "Trescon Marks Ten Years as One of MENA Region's Mos...",
       description: "Dubai, UAE. Over the past decade, Trescon has evolved from a startup founded in Bengaluru to...",
-      imgSrc: "/Vault-2047/assets/news/update-1.png",
+      imgSrc: "/assets/news/update-1.png",
       link: "#"
     },
     {
@@ -16,7 +16,7 @@ export default function UpdatesSection() {
       date: "February 24, 2026",
       title: "Trescon Marks Ten Years as One of MENA Region's Mos...",
       description: "Dubai, UAE. Over the past decade, Trescon has evolved from a startup founded in Bengaluru to...",
-      imgSrc: "/Vault-2047/assets/news/update-2.jpg",
+      imgSrc: "/assets/news/update-2.jpg",
       link: "#"
     },
     {
@@ -24,7 +24,7 @@ export default function UpdatesSection() {
       date: "February 24, 2026",
       title: "Trescon Marks Ten Years as One of MENA Region's Mos...",
       description: "Dubai, UAE. Over the past decade, Trescon has evolved from a startup founded in Bengaluru to...",
-      imgSrc: "/Vault-2047/assets/news/update-3.jpg",
+      imgSrc: "/assets/news/update-3.jpg",
       link: "#"
     }
   ];

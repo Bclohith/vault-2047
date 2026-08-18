@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col items-start gap-6 lg:w-1/3">
           <div className="relative w-48 h-20 md:w-56 md:h-24">
             <Image 
-              src="/Vault-2047/assets/footer-logo.svg" 
+              src="/assets/footer-logo.svg" 
               alt="Vault 2047 Logo" 
               fill 
               className="object-contain object-left" 
@@ -33,9 +34,9 @@ export default function Footer() {
             Quick Links
           </h4>
           <nav className="flex flex-col gap-3">
-            <a href="#" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Get Your Pass</a>
-            <a href="#" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Speakers</a>
-            <a href="#" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Sponsors</a>
+            <Link href="/get-your-pass" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Get Your Pass</Link>
+            <Link href="/speakers" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Speakers</Link>
+            <Link href="/sponsors" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Sponsors</Link>
           </nav>
         </div>
 
@@ -48,9 +49,9 @@ export default function Footer() {
             Get Involved
           </h4>
           <nav className="flex flex-col gap-3">
-            <a href="#" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Become a Sponsor</a>
-            <a href="#" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Exhibit</a>
-            <a href="#" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Pitch Competition</a>
+            <Link href="/apply-to-sponsor" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Become a Sponsor</Link>
+            <Link href="/apply-to-exhibit" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Exhibit</Link>
+            <Link href="/pitch-competition" className="text-white text-sm font-semibold hover:text-[#B86A2E] transition-colors" style={{ fontFamily: "var(--font-ibm)" }}>Pitch Competition</Link>
           </nav>
         </div>
 

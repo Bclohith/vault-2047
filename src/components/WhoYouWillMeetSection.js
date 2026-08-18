@@ -12,42 +12,42 @@ export default function WhoYouWillMeetSection() {
       title: "National security leaders and policymakers",
       description: "Shaping national cyber doctrine, driving regulation, and aligning multilateral frameworks for sovereign digital defence in an era of systemic risk.",
       bg: "bg-[#B8B82E]/10",
-      imageSrc: "/Vault-2047/assets/who-meet/2.png"
+      imageSrc: "/assets/who-meet/2.png"
     },
     {
       id: "02",
       title: "Global cybersecurity companies and technology leaders",
       description: "Presenting advanced cybersecurity technologies, forging enterprise and government partnerships, and driving innovation in threat detection, cloud security, zero trust and next-generation cyber-defence solutions globally.",
       bg: "bg-[#B86A2E]/10",
-      imageSrc: "/Vault-2047/assets/who-meet/3.png"
+      imageSrc: "/assets/who-meet/3.png"
     },
     {
       id: "03",
       title: "Enterprise CISOs, CIOs, CTOs, CROs",
       description: "Leading enterprise-wide cyber resilience, risk mitigation and digital transformation strategies while securing complex IT, cloud and operational environments across critical industries and large-scale digital ecosystems.",
       bg: "bg-[#2E83B8]/10",
-      imageSrc: "/Vault-2047/assets/who-meet/1.png"
+      imageSrc: "/assets/who-meet/1.png"
     },
     {
       id: "04",
       title: "Defence and intelligence agencies",
       description: "Enhancing cyber-warfare capabilities, advancing threat-intelligence collaboration and strengthening national defence systems to counter evolving threats targeting strategic assets and national security infrastructure.",
       bg: "bg-[#402EB8]/10",
-      imageSrc: "/Vault-2047/assets/who-meet/6.png"
+      imageSrc: "/assets/who-meet/6.png"
     },
     {
       id: "05",
       title: "Cybersecurity startups and innovators",
       description: "Showcasing disruptive cybersecurity solutions, accessing enterprise and government opportunities, and scaling innovations across threat intelligence, identity security, cloud protection and next-generation cyber-defence technologies.",
       bg: "bg-[#B8B82E]/10",
-      imageSrc: "/Vault-2047/assets/who-meet/4.png"
+      imageSrc: "/assets/who-meet/4.png"
     },
     {
       id: "06",
       title: "Global investors, VCs, and sovereign funds",
       description: "Exploring high-growth cybersecurity investment opportunities, accessing deal flow from emerging startups and partnering with enterprises and governments to accelerate innovation and ecosystem expansion.",
       bg: "bg-[#B82E69]/10",
-      imageSrc: "/Vault-2047/assets/who-meet/5.png"
+      imageSrc: "/assets/who-meet/5.png"
     }
   ];
 

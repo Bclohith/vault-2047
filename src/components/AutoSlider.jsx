@@ -61,16 +61,16 @@ export default function AutoSlider() {
         style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}
       >
         <div className="flex-none w-[85vw] md:w-[400px] h-[370px] relative overflow-hidden group snap-center outline outline-1 outline-white/10">
-          <Image src="/Vault-2047/assets/vision/slider/slide1.jpg" alt="Slide 1" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+          <Image src="/assets/vision/slider/slide1.jpg" alt="Slide 1" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
         </div>
         <div className="flex-none w-[85vw] md:w-[400px] h-[370px] relative overflow-hidden group snap-center outline outline-1 outline-white/10">
-          <Image src="/Vault-2047/assets/vision/slider/slide2.jpg" alt="Slide 2" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+          <Image src="/assets/vision/slider/slide2.jpg" alt="Slide 2" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
         </div>
         <div className="flex-none w-[85vw] md:w-[400px] h-[370px] relative overflow-hidden group snap-center outline outline-1 outline-white/10">
-          <Image src="/Vault-2047/assets/vision/slider/slide3.jpg" alt="Slide 3" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+          <Image src="/assets/vision/slider/slide3.jpg" alt="Slide 3" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
         </div>
         <div className="flex-none w-[85vw] md:w-[400px] h-[370px] relative overflow-hidden group snap-center outline outline-1 outline-white/10">
-          <Image src="/Vault-2047/assets/vision/slider/slide4.jpg" alt="Slide 4" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+          <Image src="/assets/vision/slider/slide4.jpg" alt="Slide 4" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
         </div>
       </div>
     </div>

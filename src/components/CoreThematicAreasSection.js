@@ -7,37 +7,37 @@ export default function CoreThematicAreasSection() {
       id: "01",
       title: "Cyber Defence & Critical Infrastructure",
       description: "Securing financial systems, telecom networks, energy grids and national infrastructure.",
-      iconSrc: "/Vault-2047/assets/thematic-icons/icon-1.svg"
+      iconSrc: "/assets/thematic-icons/icon-1.svg"
     },
     {
       id: "02",
       title: "Emerging Threat Landscape",
       description: "Quantum security, dark web intelligence, advanced persistent threats, zero trust",
-      iconSrc: "/Vault-2047/assets/thematic-icons/icon-2.svg"
+      iconSrc: "/assets/thematic-icons/icon-2.svg"
     },
     {
       id: "03",
       title: "AI & Cyber Nexus",
       description: "Leveraging AI for threat detection while combating AI-driven cyber risk",
-      iconSrc: "/Vault-2047/assets/thematic-icons/icon-3.svg"
+      iconSrc: "/assets/thematic-icons/icon-3.svg"
     },
     {
       id: "04",
       title: "IT–OT–IoT Security Convergence",
       description: "Protecting connected industrial and enterprise ecosystems",
-      iconSrc: "/Vault-2047/assets/thematic-icons/icon-4.svg"
+      iconSrc: "/assets/thematic-icons/icon-4.svg"
     },
     {
       id: "05",
       title: "Cyber Talent & Skills Pipeline",
       description: "Building the next generation of cyber defenders through training and certification",
-      iconSrc: "/Vault-2047/assets/thematic-icons/icon-5.svg"
+      iconSrc: "/assets/thematic-icons/icon-5.svg"
     },
     {
       id: "06",
       title: "Digital Trust & Citizen Safety",
       description: "Strengthening cyber awareness and safeguarding digital identities",
-      iconSrc: "/Vault-2047/assets/thematic-icons/icon-6.svg"
+      iconSrc: "/assets/thematic-icons/icon-6.svg"
     }
   ];
 
@@ -109,34 +109,7 @@ export default function CoreThematicAreasSection() {
 
         </div>
 
-        {/* Navigation & Explore Button */}
-        <div className="w-full relative flex items-center justify-between pt-4">
-          
-          {/* Left Navigation Arrows */}
-          <div className="flex items-center gap-4">
-            <button className="w-[56px] h-[56px] flex items-center justify-center bg-[#1A1815] border border-white/5 hover:bg-[#2A2622] hover:border-[#B86A2E]/30 transition-all group">
-              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="transform group-hover:-translate-x-1 transition-transform">
-                <path d="M8 1L1 8L8 15" stroke="#B86A2E" strokeWidth="1.5"/>
-              </svg>
-            </button>
-            <button className="w-[56px] h-[56px] flex items-center justify-center bg-[#1A1815] border border-white/5 hover:bg-[#2A2622] hover:border-[#B86A2E]/30 transition-all group">
-              <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="transform group-hover:translate-x-1 transition-transform">
-                <path d="M1 1L8 8L1 15" stroke="#B86A2E" strokeWidth="1.5"/>
-              </svg>
-            </button>
-          </div>
 
-          {/* Centered Explore Button */}
-          <div className="absolute left-1/2 -translate-x-1/2">
-            <button 
-              className="px-10 py-[18px] bg-[#B86A2E] text-white text-[15px] font-medium hover:bg-[#9a5624] transition-colors"
-              style={{ fontFamily: "var(--font-ibm)" }}
-            >
-              Explore More
-            </button>
-          </div>
-
-        </div>
 
       </div>
     </section>

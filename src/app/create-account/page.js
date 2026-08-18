@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function CreateAccountPage() {
   return (
@@ -35,7 +36,7 @@ export default function CreateAccountPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/Vault-2047/assets/login-bg.jpg"
+            src="/assets/login-bg.jpg"
             alt="Audience Background"
             fill
             className="object-cover opacity-30"
@@ -117,6 +118,7 @@ export default function CreateAccountPage() {
         </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

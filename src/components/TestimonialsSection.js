@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
       {/* Optional Background Image Overlay (from provided asset) */}
       <div className="absolute inset-0 z-0 opacity-5 pointer-events-none">
         <Image 
-          src="/Vault-2047/assets/testimonials/bg-image.png" 
+          src="/assets/testimonials/bg-image.png" 
           alt="Background" 
           fill 
           className="object-cover" 

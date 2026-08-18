@@ -11,25 +11,25 @@ export default function DownloadAssetsPage() {
       title: 'Explore the Exhibition Layout',
       desc: 'Review the floor plan to identify high-impact exhibition zones, innovation precincts, and strategic positioning opportunities within Vault2047.',
       btn: 'Download Floor Plan',
-      icon: '/Vault-2047/assets/icon-floorplan.svg'
+      icon: '/assets/icon-floorplan.svg'
     },
     {
       title: 'Understand the Full Event Scope',
       desc: 'Access the complete event overview including themes, agenda structure, key highlights, and strategic positioning of Vault2047.',
       btn: 'Download Brochure',
-      icon: '/Vault-2047/assets/icon-brochure.svg'
+      icon: '/assets/icon-brochure.svg'
     },
     {
       title: 'Review Sponsorship Opportunities',
       desc: 'Explore detailed sponsorship packages including branding opportunities, speaking roles, VIP access, and strategic integrations.',
       btn: 'Download Sponsorship Package',
-      icon: '/Vault-2047/assets/icon-handshake.svg'
+      icon: '/assets/icon-handshake.svg'
     },
     {
       title: 'Custom Engagement Opportunities',
       desc: 'Looking for a tailored presence? Connect with our team to design bespoke activations aligned with your strategic objectives.',
       btn: 'Book a Call',
-      icon: '/Vault-2047/assets/icon-people.svg'
+      icon: '/assets/icon-people.svg'
     }
   ];
 

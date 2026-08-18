@@ -4,13 +4,13 @@ export const metadata = {
   openGraph: {
     title: "Be a Media Partner - Vault 2047",
     description: "Amplify the global cyber narrative by becoming a media partner at Vault 2047.",
-    images: ['/Vault-2047/assets/og-image.jpg'],
+    images: ['/assets/og-image.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Be a Media Partner - Vault 2047",
     description: "Amplify the global cyber narrative by becoming a media partner at Vault 2047.",
-    images: ['/Vault-2047/assets/og-image.jpg'],
+    images: ['/assets/og-image.jpg'],
   },
 };
 

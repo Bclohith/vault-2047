@@ -45,7 +45,7 @@ export default function SpeakersSection() {
                 
                 {/* Background Image that scales on hover */}
                 <Image
-                  src="/Vault-2047/assets/speaker-bg.png"
+                  src="/assets/speaker-bg.png"
                   alt="Background"
                   fill
                   className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.15]"

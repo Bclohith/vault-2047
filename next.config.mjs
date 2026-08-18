@@ -2,8 +2,8 @@
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   ...(isProd ? { output: 'export' } : {}),
-  basePath: isProd ? '/Vault-2047' : '',
-  assetPrefix: isProd ? '/Vault-2047' : '',
+  
+  
   images: {
     unoptimized: true,
   },
@@ -14,7 +14,7 @@ const nextConfig = {
     if (!isProd) {
       return [
         {
-          source: '/Vault-2047/assets/:path*',
+          source: '/assets/:path*',
           destination: '/assets/:path*',
         },
       ];

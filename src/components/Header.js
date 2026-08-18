@@ -15,6 +15,7 @@ export default function Header() {
     { name: "Ecosystem", href: "/ecosystem" },
     { name: "Collaborate", href: "/collaborate" },
     { name: "Startups", href: "/startups" },
+    { name: "Networking", href: "/networking" },
     { name: "Knowledge hub", href: "/knowledge-hub" },
   ];
 
@@ -28,6 +29,8 @@ export default function Header() {
       active = active || ["/attend-startup", "/exhibit-startup", "/pitch-competition"].includes(currentPath);
     } else if (link.name === "Collaborate") {
       active = active || ["/apply-to-sponsor", "/apply-to-exhibit", "/be-a-media-partner", "/be-an-association-partner", "/download-assets"].includes(currentPath);
+    } else if (link.name === "Networking") {
+      active = active || ["/attendee-app", "/ai-matchmaking", "/photo-gallery", "/whatsapp-networking"].includes(currentPath);
     }
     return active;
   };
@@ -39,11 +42,10 @@ export default function Header() {
         {/* Logo */}
         <div className="relative w-32 h-10 md:w-36 md:h-12 flex-shrink-0 cursor-pointer">
           <Link href="/">
-            <Image 
-              src="/Vault-2047/assets/logo.svg" 
+            <img 
+              src="/assets/logo.svg" 
               alt="Vault 2047 Logo" 
-              fill 
-              className="object-contain object-left" 
+              className="object-contain object-left w-full h-full" 
             />
           </Link>
         </div>
